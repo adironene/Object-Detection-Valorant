@@ -1,0 +1,50 @@
+Analyzing TFRecord file: ..\tf_files\train.record
+====================
+Example 1:
+  Filename: clip2--1-_jpg.rf.6c70791b6024ebc054f0ac533d153a03.jpg
+  Image size: 416x416
+  Number of boxes: 2
+  Classes: {'enemy': 1, 'enemy_head': 1}
+  Box 1: [0.5240, 0.4808, 0.5529, 0.6034], Class: enemy
+  Box 2: [0.5337, 0.4808, 0.5457, 0.5048], Class: enemy_head
+----------------------------------------
+Example 2:
+  Filename: clip2--1-_jpg.rf.c310eba84ce59be61642f1a6bc1b5105.jpg
+  Image size: 416x416
+  Number of boxes: 2
+  Classes: {'enemy': 1, 'enemy_head': 1}
+  Box 1: [0.5240, 0.4808, 0.5529, 0.6034], Class: enemy
+  Box 2: [0.5337, 0.4808, 0.5457, 0.5048], Class: enemy_head
+----------------------------------------
+Example 3:
+  Filename: clip2--1-_jpg.rf.eb8b067ba0c311ae6f3f88cfec0a0b23.jpg
+  Image size: 416x416
+  Number of boxes: 2
+  Classes: {'enemy': 1, 'enemy_head': 1}
+  Box 1: [0.5240, 0.4808, 0.5529, 0.6034], Class: enemy
+  Box 2: [0.5337, 0.4808, 0.5457, 0.5048], Class: enemy_head
+----------------------------------------
+Example 4:
+  Filename: clip2--10-_jpg.rf.15bf293f5b383cfa60d5e53e8cb0fc0c.jpg
+  Image size: 416x416
+  Number of boxes: 1
+  Classes: {'enemy': 1}
+  Box 1: [0.6274, 0.0938, 0.6562, 0.1947], Class: enemy
+----------------------------------------
+Example 5:
+  Filename: clip2--10-_jpg.rf.9993b313bf062a3c4cb628e889a8ce8b.jpg
+  Image size: 416x416
+  Number of boxes: 1
+  Classes: {'enemy': 1}
+  Box 1: [0.6274, 0.0938, 0.6562, 0.1947], Class: enemy
+----------------------------------------
+
+Dataset Summary:
+Total number of examples: 5385
+Average number of boxes per image: 2.41
+Min number of boxes: 1
+Max number of boxes: 12
+
+Class distribution:
+  Class 1: 6597 instances
+  Class 2: 6357 instances

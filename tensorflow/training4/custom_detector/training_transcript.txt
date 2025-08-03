@@ -1,0 +1,1152 @@
+[2025-05-10 00:14:27] Starting training session
+Model configuration: IMAGE_SIZE=(416, 416), BATCH_SIZE=16, EPOCHS=50, LEARNING_RATE=0.0001
+
+[2025-05-10 00:14:27] === Starting Valorant Detector ===
+[2025-05-10 00:14:27] Training data: ../tf_files/train.record
+[2025-05-10 00:14:27] Validation data: ../tf_files/valid.record
+[2025-05-10 00:14:27] Loading data from ../tf_files/train.record and ../tf_files/valid.record
+[2025-05-10 00:14:27] Estimating dataset sizes...
+[2025-05-10 00:14:27] Train dataset size: ~337 batches (approx. 5385 examples)
+[2025-05-10 00:14:27] Validation dataset size: ~33 batches (approx. 514 examples)
+[2025-05-10 00:14:27] Creating model...
+[2025-05-10 00:14:28] Starting model training...
+[2025-05-10 00:14:28] === Training Started ===
+[2025-05-10 00:14:28] Model structure:
+[2025-05-10 00:14:28] Total layers: 160
+[2025-05-10 00:14:28] Total parameters: 9,344,081
+[2025-05-10 00:14:28] Trainable parameters: 7,084,561
+[2025-05-10 00:14:28] Non-trainable parameters: 2,259,520
+[2025-05-10 00:14:31] Batch 0 - Loss: 561.527039
+[2025-05-10 00:14:33] Batch 5 - Loss: 451.078339
+[2025-05-10 00:14:35] Batch 10 - Loss: 405.778778
+[2025-05-10 00:14:36] Batch 15 - Loss: 375.016357
+[2025-05-10 00:14:38] Batch 20 - Loss: 348.727692
+[2025-05-10 00:14:40] Batch 25 - Loss: 324.337769
+[2025-05-10 00:14:42] Batch 30 - Loss: 304.841125
+[2025-05-10 00:14:43] Batch 35 - Loss: 285.812561
+[2025-05-10 00:14:45] Batch 40 - Loss: 268.991455
+[2025-05-10 00:14:47] Batch 45 - Loss: 253.037659
+[2025-05-10 00:14:49] Batch 50 - Loss: 238.621933
+[2025-05-10 00:14:50] Batch 55 - Loss: 225.697067
+[2025-05-10 00:14:52] Batch 60 - Loss: 213.781601
+[2025-05-10 00:14:54] Batch 65 - Loss: 202.540283
+[2025-05-10 00:14:55] Batch 70 - Loss: 192.281433
+[2025-05-10 00:14:57] Batch 75 - Loss: 182.984329
+[2025-05-10 00:14:59] Batch 80 - Loss: 174.425003
+[2025-05-10 00:15:01] Batch 85 - Loss: 166.394470
+[2025-05-10 00:15:02] Batch 90 - Loss: 158.918640
+[2025-05-10 00:15:04] Batch 95 - Loss: 152.120789
+[2025-05-10 00:15:12] === Epoch 1/50 Summary ===
+Training Loss: 147.088425
+Validation Loss: 292.812042
+Learning Rate: 0.00005000
+[2025-05-10 00:15:13] Batch 0 - Loss: 21.509695
+[2025-05-10 00:15:14] Batch 5 - Loss: 22.553061
+[2025-05-10 00:15:16] Batch 10 - Loss: 21.511955
+[2025-05-10 00:15:18] Batch 15 - Loss: 20.798023
+[2025-05-10 00:15:19] Batch 20 - Loss: 20.322145
+[2025-05-10 00:15:21] Batch 25 - Loss: 19.653486
+[2025-05-10 00:15:23] Batch 30 - Loss: 19.114449
+[2025-05-10 00:15:25] Batch 35 - Loss: 18.365799
+[2025-05-10 00:15:26] Batch 40 - Loss: 17.780813
+[2025-05-10 00:15:28] Batch 45 - Loss: 17.466366
+[2025-05-10 00:15:30] Batch 50 - Loss: 17.076963
+[2025-05-10 00:15:32] Batch 55 - Loss: 16.559244
+[2025-05-10 00:15:33] Batch 60 - Loss: 16.156887
+[2025-05-10 00:15:35] Batch 65 - Loss: 15.684996
+[2025-05-10 00:15:37] Batch 70 - Loss: 15.273990
+[2025-05-10 00:15:38] Batch 75 - Loss: 14.986201
+[2025-05-10 00:15:40] Batch 80 - Loss: 14.715002
+[2025-05-10 00:15:42] Batch 85 - Loss: 14.527815
+[2025-05-10 00:15:44] Batch 90 - Loss: 14.187025
+[2025-05-10 00:15:45] Batch 95 - Loss: 13.880277
+[2025-05-10 00:15:53] === Epoch 2/50 Summary ===
+Training Loss: 13.680492
+Validation Loss: 33.173454
+Learning Rate: 0.00005000
+[2025-05-10 00:15:53] Generating detection visualizations for epoch 2...
+[2025-05-10 00:15:54] Saved visualization to trained_models/custom_detector\visualizations\epoch_2\sample_1.png
+[2025-05-10 00:15:54] Saved visualization to trained_models/custom_detector\visualizations\epoch_2\sample_2.png
+[2025-05-10 00:15:54] Saved visualization to trained_models/custom_detector\visualizations\epoch_2\sample_3.png
+[2025-05-10 00:15:55] Batch 0 - Loss: 9.347769
+[2025-05-10 00:15:56] Batch 5 - Loss: 7.917792
+[2025-05-10 00:15:58] Batch 10 - Loss: 7.811251
+[2025-05-10 00:16:00] Batch 15 - Loss: 7.801167
+[2025-05-10 00:16:02] Batch 20 - Loss: 7.878831
+[2025-05-10 00:16:04] Batch 25 - Loss: 7.967166
+[2025-05-10 00:16:05] Batch 30 - Loss: 8.084130
+[2025-05-10 00:16:07] Batch 35 - Loss: 8.111809
+[2025-05-10 00:16:09] Batch 40 - Loss: 7.984715
+[2025-05-10 00:16:11] Batch 45 - Loss: 7.906761
+[2025-05-10 00:16:13] Batch 50 - Loss: 7.912659
+[2025-05-10 00:16:14] Batch 55 - Loss: 7.842298
+[2025-05-10 00:16:16] Batch 60 - Loss: 7.782241
+[2025-05-10 00:16:18] Batch 65 - Loss: 7.734338
+[2025-05-10 00:16:20] Batch 70 - Loss: 7.693519
+[2025-05-10 00:16:22] Batch 75 - Loss: 7.602659
+[2025-05-10 00:16:23] Batch 80 - Loss: 7.513486
+[2025-05-10 00:16:25] Batch 85 - Loss: 7.413476
+[2025-05-10 00:16:27] Batch 90 - Loss: 7.342300
+[2025-05-10 00:16:29] Batch 95 - Loss: 7.281185
+[2025-05-10 00:16:36] === Epoch 3/50 Summary ===
+Training Loss: 7.285040
+Validation Loss: 24.279821
+Learning Rate: 0.00005000
+[2025-05-10 00:16:37] Batch 0 - Loss: 4.932491
+[2025-05-10 00:16:39] Batch 5 - Loss: 5.632857
+[2025-05-10 00:16:40] Batch 10 - Loss: 5.846660
+[2025-05-10 00:16:42] Batch 15 - Loss: 5.923255
+[2025-05-10 00:16:44] Batch 20 - Loss: 5.704731
+[2025-05-10 00:16:45] Batch 25 - Loss: 5.625927
+[2025-05-10 00:16:47] Batch 30 - Loss: 5.601710
+[2025-05-10 00:16:49] Batch 35 - Loss: 5.496035
+[2025-05-10 00:16:55] === Epoch 4/50 Summary ===
+Training Loss: 5.478155
+Validation Loss: 15.524992
+Learning Rate: 0.00005000
+[2025-05-10 00:16:55] Generating detection visualizations for epoch 4...
+[2025-05-10 00:16:55] Saved visualization to trained_models/custom_detector\visualizations\epoch_4\sample_1.png
+[2025-05-10 00:16:56] Saved visualization to trained_models/custom_detector\visualizations\epoch_4\sample_2.png
+[2025-05-10 00:16:56] Saved visualization to trained_models/custom_detector\visualizations\epoch_4\sample_3.png
+[2025-05-10 00:16:57] Batch 0 - Loss: 9.617668
+[2025-05-10 00:16:59] Batch 5 - Loss: 7.743279
+[2025-05-10 00:17:00] Batch 10 - Loss: 7.546515
+[2025-05-10 00:17:02] Batch 15 - Loss: 6.960729
+[2025-05-10 00:17:04] Batch 20 - Loss: 6.663321
+[2025-05-10 00:17:06] Batch 25 - Loss: 6.608607
+[2025-05-10 00:17:07] Batch 30 - Loss: 6.483575
+[2025-05-10 00:17:09] Batch 35 - Loss: 6.333822
+[2025-05-10 00:17:11] Batch 40 - Loss: 6.352361
+[2025-05-10 00:17:13] Batch 45 - Loss: 6.258318
+[2025-05-10 00:17:15] Batch 50 - Loss: 6.201615
+[2025-05-10 00:17:16] Batch 55 - Loss: 6.106941
+[2025-05-10 00:17:18] Batch 60 - Loss: 6.096037
+[2025-05-10 00:17:20] Batch 65 - Loss: 6.091198
+[2025-05-10 00:17:22] Batch 70 - Loss: 6.029589
+[2025-05-10 00:17:23] Batch 75 - Loss: 5.982768
+[2025-05-10 00:17:25] Batch 80 - Loss: 5.951653
+[2025-05-10 00:17:27] Batch 85 - Loss: 5.874091
+[2025-05-10 00:17:29] Batch 90 - Loss: 5.793615
+[2025-05-10 00:17:31] Batch 95 - Loss: 5.751221
+[2025-05-10 00:17:38] === Epoch 5/50 Summary ===
+Training Loss: 5.704751
+Validation Loss: 10.842969
+Learning Rate: 0.00005000
+[2025-05-10 00:17:39] Batch 0 - Loss: 5.229828
+[2025-05-10 00:17:40] Batch 5 - Loss: 5.216255
+[2025-05-10 00:17:42] Batch 10 - Loss: 5.209302
+[2025-05-10 00:17:44] Batch 15 - Loss: 5.170688
+[2025-05-10 00:17:46] Batch 20 - Loss: 5.019468
+[2025-05-10 00:17:48] Batch 25 - Loss: 4.932213
+[2025-05-10 00:17:50] Batch 30 - Loss: 4.971729
+[2025-05-10 00:17:51] Batch 35 - Loss: 4.891027
+[2025-05-10 00:17:53] Batch 40 - Loss: 4.842445
+[2025-05-10 00:17:55] Batch 45 - Loss: 4.792105
+[2025-05-10 00:17:57] Batch 50 - Loss: 4.886245
+[2025-05-10 00:17:59] Batch 55 - Loss: 4.868741
+[2025-05-10 00:18:00] Batch 60 - Loss: 4.892382
+[2025-05-10 00:18:02] Batch 65 - Loss: 4.846077
+[2025-05-10 00:18:04] Batch 70 - Loss: 4.835082
+[2025-05-10 00:18:06] Batch 75 - Loss: 4.828255
+[2025-05-10 00:18:07] Batch 80 - Loss: 4.758041
+[2025-05-10 00:18:09] Batch 85 - Loss: 4.749444
+[2025-05-10 00:18:11] Batch 90 - Loss: 4.720743
+[2025-05-10 00:18:13] Batch 95 - Loss: 4.692778
+[2025-05-10 00:18:20] === Epoch 6/50 Summary ===
+Training Loss: 4.653403
+Validation Loss: 6.562290
+Learning Rate: 0.00005000
+[2025-05-10 00:18:20] Generating detection visualizations for epoch 6...
+[2025-05-10 00:18:20] Saved visualization to trained_models/custom_detector\visualizations\epoch_6\sample_1.png
+[2025-05-10 00:18:21] Saved visualization to trained_models/custom_detector\visualizations\epoch_6\sample_2.png
+[2025-05-10 00:18:21] Saved visualization to trained_models/custom_detector\visualizations\epoch_6\sample_3.png
+[2025-05-10 00:18:21] Batch 0 - Loss: 3.627661
+[2025-05-10 00:18:23] Batch 5 - Loss: 4.276731
+[2025-05-10 00:18:25] Batch 10 - Loss: 4.220023
+[2025-05-10 00:18:27] Batch 15 - Loss: 4.273599
+[2025-05-10 00:18:29] Batch 20 - Loss: 4.285584
+[2025-05-10 00:18:30] Batch 25 - Loss: 4.230951
+[2025-05-10 00:18:32] Batch 30 - Loss: 4.285398
+[2025-05-10 00:18:34] Batch 35 - Loss: 4.267360
+[2025-05-10 00:18:36] Batch 40 - Loss: 4.255940
+[2025-05-10 00:18:37] Batch 45 - Loss: 4.319724
+[2025-05-10 00:18:39] Batch 50 - Loss: 4.306871
+[2025-05-10 00:18:41] Batch 55 - Loss: 4.307364
+[2025-05-10 00:18:42] Batch 60 - Loss: 4.286628
+[2025-05-10 00:18:44] Batch 65 - Loss: 4.286968
+[2025-05-10 00:18:46] Batch 70 - Loss: 4.277575
+[2025-05-10 00:18:48] Batch 75 - Loss: 4.197959
+[2025-05-10 00:18:50] Batch 80 - Loss: 4.171703
+[2025-05-10 00:18:51] Batch 85 - Loss: 4.141074
+[2025-05-10 00:18:53] Batch 90 - Loss: 4.112785
+[2025-05-10 00:18:55] Batch 95 - Loss: 4.076041
+[2025-05-10 00:19:02] === Epoch 7/50 Summary ===
+Training Loss: 4.053290
+Validation Loss: 6.056523
+Learning Rate: 0.00005000
+[2025-05-10 00:19:03] Batch 0 - Loss: 3.943676
+[2025-05-10 00:19:04] Batch 5 - Loss: 3.611542
+[2025-05-10 00:19:06] Batch 10 - Loss: 3.535544
+[2025-05-10 00:19:08] Batch 15 - Loss: 3.521178
+[2025-05-10 00:19:09] Batch 20 - Loss: 3.508619
+[2025-05-10 00:19:11] Batch 25 - Loss: 3.568465
+[2025-05-10 00:19:13] Batch 30 - Loss: 3.654981
+[2025-05-10 00:19:15] Batch 35 - Loss: 3.645393
+[2025-05-10 00:19:20] === Epoch 8/50 Summary ===
+Training Loss: 3.651948
+Validation Loss: 6.345676
+Learning Rate: 0.00005000
+[2025-05-10 00:19:20] Generating detection visualizations for epoch 8...
+[2025-05-10 00:19:21] Saved visualization to trained_models/custom_detector\visualizations\epoch_8\sample_1.png
+[2025-05-10 00:19:21] Saved visualization to trained_models/custom_detector\visualizations\epoch_8\sample_2.png
+[2025-05-10 00:19:21] Saved visualization to trained_models/custom_detector\visualizations\epoch_8\sample_3.png
+[2025-05-10 00:19:22] Batch 0 - Loss: 4.615495
+[2025-05-10 00:19:24] Batch 5 - Loss: 4.199337
+[2025-05-10 00:19:26] Batch 10 - Loss: 4.439428
+[2025-05-10 00:19:28] Batch 15 - Loss: 4.400279
+[2025-05-10 00:19:29] Batch 20 - Loss: 4.517602
+[2025-05-10 00:19:31] Batch 25 - Loss: 4.400921
+[2025-05-10 00:19:33] Batch 30 - Loss: 4.356586
+[2025-05-10 00:19:35] Batch 35 - Loss: 4.332911
+[2025-05-10 00:19:37] Batch 40 - Loss: 4.291559
+[2025-05-10 00:19:39] Batch 45 - Loss: 4.347146
+[2025-05-10 00:19:40] Batch 50 - Loss: 4.323022
+[2025-05-10 00:19:42] Batch 55 - Loss: 4.286168
+[2025-05-10 00:19:44] Batch 60 - Loss: 4.266794
+[2025-05-10 00:19:46] Batch 65 - Loss: 4.256748
+[2025-05-10 00:19:47] Batch 70 - Loss: 4.208224
+[2025-05-10 00:19:49] Batch 75 - Loss: 4.170144
+[2025-05-10 00:19:51] Batch 80 - Loss: 4.131173
+[2025-05-10 00:19:53] Batch 85 - Loss: 4.083123
+[2025-05-10 00:19:54] Batch 90 - Loss: 4.044403
+[2025-05-10 00:19:56] Batch 95 - Loss: 4.045124
+[2025-05-10 00:20:04] === Epoch 9/50 Summary ===
+Training Loss: 4.023910
+Validation Loss: 5.914386
+Learning Rate: 0.00005000
+[2025-05-10 00:20:04] Batch 0 - Loss: 3.429718
+[2025-05-10 00:20:06] Batch 5 - Loss: 3.539545
+[2025-05-10 00:20:07] Batch 10 - Loss: 3.673506
+[2025-05-10 00:20:09] Batch 15 - Loss: 3.670052
+[2025-05-10 00:20:11] Batch 20 - Loss: 3.613505
+[2025-05-10 00:20:13] Batch 25 - Loss: 3.690449
+[2025-05-10 00:20:14] Batch 30 - Loss: 3.687363
+[2025-05-10 00:20:16] Batch 35 - Loss: 3.629155
+[2025-05-10 00:20:18] Batch 40 - Loss: 3.629075
+[2025-05-10 00:20:20] Batch 45 - Loss: 3.656047
+[2025-05-10 00:20:21] Batch 50 - Loss: 3.664828
+[2025-05-10 00:20:23] Batch 55 - Loss: 3.711188
+[2025-05-10 00:20:25] Batch 60 - Loss: 3.687931
+[2025-05-10 00:20:27] Batch 65 - Loss: 3.650862
+[2025-05-10 00:20:28] Batch 70 - Loss: 3.613355
+[2025-05-10 00:20:30] Batch 75 - Loss: 3.620696
+[2025-05-10 00:20:32] Batch 80 - Loss: 3.619412
+[2025-05-10 00:20:34] Batch 85 - Loss: 3.609646
+[2025-05-10 00:20:35] Batch 90 - Loss: 3.612838
+[2025-05-10 00:20:37] Batch 95 - Loss: 3.596668
+[2025-05-10 00:20:44] === Epoch 10/50 Summary ===
+Training Loss: 3.605897
+Validation Loss: 5.138400
+Learning Rate: 0.00005000
+[2025-05-10 00:20:44] Generating detection visualizations for epoch 10...
+[2025-05-10 00:20:45] Saved visualization to trained_models/custom_detector\visualizations\epoch_10\sample_1.png
+[2025-05-10 00:20:45] Saved visualization to trained_models/custom_detector\visualizations\epoch_10\sample_2.png
+[2025-05-10 00:20:46] Saved visualization to trained_models/custom_detector\visualizations\epoch_10\sample_3.png
+[2025-05-10 00:20:46] Batch 0 - Loss: 3.444608
+[2025-05-10 00:20:48] Batch 5 - Loss: 3.579360
+[2025-05-10 00:20:49] Batch 10 - Loss: 3.623196
+[2025-05-10 00:20:51] Batch 15 - Loss: 3.593900
+[2025-05-10 00:20:53] Batch 20 - Loss: 3.545683
+[2025-05-10 00:20:55] Batch 25 - Loss: 3.523184
+[2025-05-10 00:20:57] Batch 30 - Loss: 3.487265
+[2025-05-10 00:20:58] Batch 35 - Loss: 3.508357
+[2025-05-10 00:21:00] Batch 40 - Loss: 3.440575
+[2025-05-10 00:21:02] Batch 45 - Loss: 3.400907
+[2025-05-10 00:21:04] Batch 50 - Loss: 3.443282
+[2025-05-10 00:21:06] Batch 55 - Loss: 3.473728
+[2025-05-10 00:21:07] Batch 60 - Loss: 3.487746
+[2025-05-10 00:21:09] Batch 65 - Loss: 3.491512
+[2025-05-10 00:21:11] Batch 70 - Loss: 3.476182
+[2025-05-10 00:21:13] Batch 75 - Loss: 3.460470
+[2025-05-10 00:21:14] Batch 80 - Loss: 3.451619
+[2025-05-10 00:21:16] Batch 85 - Loss: 3.446898
+[2025-05-10 00:21:18] Batch 90 - Loss: 3.426080
+[2025-05-10 00:21:20] Batch 95 - Loss: 3.410665
+[2025-05-10 00:21:28] === Epoch 11/50 Summary ===
+Training Loss: 3.394164
+Validation Loss: 5.091745
+Learning Rate: 0.00005000
+[2025-05-10 00:21:28] Batch 0 - Loss: 2.101566
+[2025-05-10 00:21:30] Batch 5 - Loss: 2.566459
+[2025-05-10 00:21:32] Batch 10 - Loss: 2.748213
+[2025-05-10 00:21:33] Batch 15 - Loss: 2.851431
+[2025-05-10 00:21:35] Batch 20 - Loss: 2.928323
+[2025-05-10 00:21:37] Batch 25 - Loss: 2.951924
+[2025-05-10 00:21:39] Batch 30 - Loss: 2.967233
+[2025-05-10 00:21:40] Batch 35 - Loss: 3.057186
+[2025-05-10 00:21:46] === Epoch 12/50 Summary ===
+Training Loss: 3.083333
+Validation Loss: 4.969074
+Learning Rate: 0.00005000
+[2025-05-10 00:21:46] Generating detection visualizations for epoch 12...
+[2025-05-10 00:21:47] Saved visualization to trained_models/custom_detector\visualizations\epoch_12\sample_1.png
+[2025-05-10 00:21:47] Saved visualization to trained_models/custom_detector\visualizations\epoch_12\sample_2.png
+[2025-05-10 00:21:47] Saved visualization to trained_models/custom_detector\visualizations\epoch_12\sample_3.png
+[2025-05-10 00:21:48] Batch 0 - Loss: 3.444059
+[2025-05-10 00:21:50] Batch 5 - Loss: 3.539665
+[2025-05-10 00:21:51] Batch 10 - Loss: 3.623115
+[2025-05-10 00:21:53] Batch 15 - Loss: 3.605290
+[2025-05-10 00:21:55] Batch 20 - Loss: 3.693177
+[2025-05-10 00:21:57] Batch 25 - Loss: 3.657427
+[2025-05-10 00:21:58] Batch 30 - Loss: 3.624813
+[2025-05-10 00:22:00] Batch 35 - Loss: 3.644134
+[2025-05-10 00:22:02] Batch 40 - Loss: 3.697398
+[2025-05-10 00:22:04] Batch 45 - Loss: 3.668619
+[2025-05-10 00:22:06] Batch 50 - Loss: 3.657562
+[2025-05-10 00:22:08] Batch 55 - Loss: 3.648407
+[2025-05-10 00:22:09] Batch 60 - Loss: 3.635007
+[2025-05-10 00:22:11] Batch 65 - Loss: 3.595363
+[2025-05-10 00:22:13] Batch 70 - Loss: 3.587520
+[2025-05-10 00:22:15] Batch 75 - Loss: 3.567181
+[2025-05-10 00:22:16] Batch 80 - Loss: 3.547300
+[2025-05-10 00:22:18] Batch 85 - Loss: 3.512014
+[2025-05-10 00:22:20] Batch 90 - Loss: 3.512954
+[2025-05-10 00:22:22] Batch 95 - Loss: 3.486910
+[2025-05-10 00:22:29] === Epoch 13/50 Summary ===
+Training Loss: 3.469597
+Validation Loss: 5.439497
+Learning Rate: 0.00005000
+[2025-05-10 00:22:29] Batch 0 - Loss: 4.026322
+[2025-05-10 00:22:31] Batch 5 - Loss: 3.216413
+[2025-05-10 00:22:33] Batch 10 - Loss: 3.129991
+[2025-05-10 00:22:34] Batch 15 - Loss: 3.139500
+[2025-05-10 00:22:36] Batch 20 - Loss: 3.144667
+[2025-05-10 00:22:38] Batch 25 - Loss: 3.118905
+[2025-05-10 00:22:40] Batch 30 - Loss: 3.148645
+[2025-05-10 00:22:41] Batch 35 - Loss: 3.155207
+[2025-05-10 00:22:43] Batch 40 - Loss: 3.179978
+[2025-05-10 00:22:45] Batch 45 - Loss: 3.209574
+[2025-05-10 00:22:47] Batch 50 - Loss: 3.231449
+[2025-05-10 00:22:48] Batch 55 - Loss: 3.230381
+[2025-05-10 00:22:50] Batch 60 - Loss: 3.242686
+[2025-05-10 00:22:52] Batch 65 - Loss: 3.266682
+[2025-05-10 00:22:54] Batch 70 - Loss: 3.270164
+[2025-05-10 00:22:55] Batch 75 - Loss: 3.265804
+[2025-05-10 00:22:57] Batch 80 - Loss: 3.255975
+[2025-05-10 00:22:59] Batch 85 - Loss: 3.240078
+[2025-05-10 00:23:01] Batch 90 - Loss: 3.241337
+[2025-05-10 00:23:02] Batch 95 - Loss: 3.243321
+[2025-05-10 00:23:10] === Epoch 14/50 Summary ===
+Training Loss: 3.217904
+Validation Loss: 4.746777
+Learning Rate: 0.00005000
+[2025-05-10 00:23:10] Generating detection visualizations for epoch 14...
+[2025-05-10 00:23:10] Saved visualization to trained_models/custom_detector\visualizations\epoch_14\sample_1.png
+[2025-05-10 00:23:11] Saved visualization to trained_models/custom_detector\visualizations\epoch_14\sample_2.png
+[2025-05-10 00:23:11] Saved visualization to trained_models/custom_detector\visualizations\epoch_14\sample_3.png
+[2025-05-10 00:23:11] Batch 0 - Loss: 2.656058
+[2025-05-10 00:23:13] Batch 5 - Loss: 3.093023
+[2025-05-10 00:23:15] Batch 10 - Loss: 3.010197
+[2025-05-10 00:23:17] Batch 15 - Loss: 3.039188
+[2025-05-10 00:23:19] Batch 20 - Loss: 3.116369
+[2025-05-10 00:23:20] Batch 25 - Loss: 3.076232
+[2025-05-10 00:23:22] Batch 30 - Loss: 3.113724
+[2025-05-10 00:23:24] Batch 35 - Loss: 3.142872
+[2025-05-10 00:23:26] Batch 40 - Loss: 3.075024
+[2025-05-10 00:23:28] Batch 45 - Loss: 3.063531
+[2025-05-10 00:23:29] Batch 50 - Loss: 3.069957
+[2025-05-10 00:23:31] Batch 55 - Loss: 3.050472
+[2025-05-10 00:23:33] Batch 60 - Loss: 3.054414
+[2025-05-10 00:23:35] Batch 65 - Loss: 3.086419
+[2025-05-10 00:23:36] Batch 70 - Loss: 3.087497
+[2025-05-10 00:23:38] Batch 75 - Loss: 3.067609
+[2025-05-10 00:23:40] Batch 80 - Loss: 3.042494
+[2025-05-10 00:23:42] Batch 85 - Loss: 3.046007
+[2025-05-10 00:23:43] Batch 90 - Loss: 3.024384
+[2025-05-10 00:23:45] Batch 95 - Loss: 3.010092
+[2025-05-10 00:23:53] === Epoch 15/50 Summary ===
+Training Loss: 2.999500
+Validation Loss: 4.838774
+Learning Rate: 0.00005000
+[2025-05-10 00:23:53] Batch 0 - Loss: 2.752220
+[2025-05-10 00:23:55] Batch 5 - Loss: 3.021135
+[2025-05-10 00:23:57] Batch 10 - Loss: 2.850948
+[2025-05-10 00:23:58] Batch 15 - Loss: 2.925995
+[2025-05-10 00:24:00] Batch 20 - Loss: 2.991661
+[2025-05-10 00:24:02] Batch 25 - Loss: 2.948948
+[2025-05-10 00:24:04] Batch 30 - Loss: 2.887955
+[2025-05-10 00:24:05] Batch 35 - Loss: 2.876145
+[2025-05-10 00:24:11] === Epoch 16/50 Summary ===
+Training Loss: 2.879512
+Validation Loss: 5.027181
+Learning Rate: 0.00005000
+[2025-05-10 00:24:11] Generating detection visualizations for epoch 16...
+[2025-05-10 00:24:12] Saved visualization to trained_models/custom_detector\visualizations\epoch_16\sample_1.png
+[2025-05-10 00:24:12] Saved visualization to trained_models/custom_detector\visualizations\epoch_16\sample_2.png
+[2025-05-10 00:24:12] Saved visualization to trained_models/custom_detector\visualizations\epoch_16\sample_3.png
+[2025-05-10 00:24:13] Batch 0 - Loss: 3.236631
+[2025-05-10 00:24:15] Batch 5 - Loss: 3.026568
+[2025-05-10 00:24:17] Batch 10 - Loss: 3.462039
+[2025-05-10 00:24:19] Batch 15 - Loss: 3.377760
+[2025-05-10 00:24:20] Batch 20 - Loss: 3.388744
+[2025-05-10 00:24:22] Batch 25 - Loss: 3.370984
+[2025-05-10 00:24:24] Batch 30 - Loss: 3.389091
+[2025-05-10 00:24:26] Batch 35 - Loss: 3.362176
+[2025-05-10 00:24:28] Batch 40 - Loss: 3.306532
+[2025-05-10 00:24:30] Batch 45 - Loss: 3.274400
+[2025-05-10 00:24:32] Batch 50 - Loss: 3.250987
+[2025-05-10 00:24:33] Batch 55 - Loss: 3.243811
+[2025-05-10 00:24:35] Batch 60 - Loss: 3.240423
+[2025-05-10 00:24:37] Batch 65 - Loss: 3.215767
+[2025-05-10 00:24:39] Batch 70 - Loss: 3.219924
+[2025-05-10 00:24:41] Batch 75 - Loss: 3.201099
+[2025-05-10 00:24:43] Batch 80 - Loss: 3.184635
+[2025-05-10 00:24:45] Batch 85 - Loss: 3.189053
+[2025-05-10 00:24:47] Batch 90 - Loss: 3.187338
+[2025-05-10 00:24:48] Batch 95 - Loss: 3.166226
+[2025-05-10 00:24:57] === Epoch 17/50 Summary ===
+Training Loss: 3.140409
+Validation Loss: 4.652644
+Learning Rate: 0.00005000
+[2025-05-10 00:24:57] Batch 0 - Loss: 2.499178
+[2025-05-10 00:24:59] Batch 5 - Loss: 2.796732
+[2025-05-10 00:25:01] Batch 10 - Loss: 2.897867
+[2025-05-10 00:25:03] Batch 15 - Loss: 2.884742
+[2025-05-10 00:25:05] Batch 20 - Loss: 2.901843
+[2025-05-10 00:25:06] Batch 25 - Loss: 2.939043
+[2025-05-10 00:25:08] Batch 30 - Loss: 2.939082
+[2025-05-10 00:25:10] Batch 35 - Loss: 2.907366
+[2025-05-10 00:25:12] Batch 40 - Loss: 2.887750
+[2025-05-10 00:25:14] Batch 45 - Loss: 2.925317
+[2025-05-10 00:25:16] Batch 50 - Loss: 2.957485
+[2025-05-10 00:25:17] Batch 55 - Loss: 2.946163
+[2025-05-10 00:25:19] Batch 60 - Loss: 2.928440
+[2025-05-10 00:25:21] Batch 65 - Loss: 2.932142
+[2025-05-10 00:25:23] Batch 70 - Loss: 2.971079
+[2025-05-10 00:25:25] Batch 75 - Loss: 2.964180
+[2025-05-10 00:25:27] Batch 80 - Loss: 2.957494
+[2025-05-10 00:25:28] Batch 85 - Loss: 2.955814
+[2025-05-10 00:25:30] Batch 90 - Loss: 2.933311
+[2025-05-10 00:25:32] Batch 95 - Loss: 2.927519
+[2025-05-10 00:25:39] === Epoch 18/50 Summary ===
+Training Loss: 2.917224
+Validation Loss: 4.707722
+Learning Rate: 0.00005000
+[2025-05-10 00:25:39] Generating detection visualizations for epoch 18...
+[2025-05-10 00:25:39] Saved visualization to trained_models/custom_detector\visualizations\epoch_18\sample_1.png
+[2025-05-10 00:25:40] Saved visualization to trained_models/custom_detector\visualizations\epoch_18\sample_2.png
+[2025-05-10 00:25:40] Saved visualization to trained_models/custom_detector\visualizations\epoch_18\sample_3.png
+[2025-05-10 00:25:41] Batch 0 - Loss: 2.383789
+[2025-05-10 00:25:42] Batch 5 - Loss: 2.809319
+[2025-05-10 00:25:44] Batch 10 - Loss: 2.792516
+[2025-05-10 00:25:46] Batch 15 - Loss: 2.788834
+[2025-05-10 00:25:48] Batch 20 - Loss: 2.816773
+[2025-05-10 00:25:50] Batch 25 - Loss: 2.790798
+[2025-05-10 00:25:52] Batch 30 - Loss: 2.745549
+[2025-05-10 00:25:53] Batch 35 - Loss: 2.796750
+[2025-05-10 00:25:55] Batch 40 - Loss: 2.793216
+[2025-05-10 00:25:57] Batch 45 - Loss: 2.783847
+[2025-05-10 00:25:59] Batch 50 - Loss: 2.749612
+[2025-05-10 00:26:01] Batch 55 - Loss: 2.756622
+[2025-05-10 00:26:03] Batch 60 - Loss: 2.729853
+[2025-05-10 00:26:05] Batch 65 - Loss: 2.719849
+[2025-05-10 00:26:06] Batch 70 - Loss: 2.729511
+[2025-05-10 00:26:08] Batch 75 - Loss: 2.711453
+[2025-05-10 00:26:10] Batch 80 - Loss: 2.721346
+[2025-05-10 00:26:12] Batch 85 - Loss: 2.708431
+[2025-05-10 00:26:14] Batch 90 - Loss: 2.705567
+[2025-05-10 00:26:15] Batch 95 - Loss: 2.685184
+[2025-05-10 00:26:23] === Epoch 19/50 Summary ===
+Training Loss: 2.693247
+Validation Loss: 4.499671
+Learning Rate: 0.00005000
+[2025-05-10 00:26:23] Batch 0 - Loss: 1.962895
+[2025-05-10 00:26:25] Batch 5 - Loss: 2.506073
+[2025-05-10 00:26:27] Batch 10 - Loss: 2.523948
+[2025-05-10 00:26:29] Batch 15 - Loss: 2.586500
+[2025-05-10 00:26:31] Batch 20 - Loss: 2.561339
+[2025-05-10 00:26:32] Batch 25 - Loss: 2.606870
+[2025-05-10 00:26:34] Batch 30 - Loss: 2.588312
+[2025-05-10 00:26:36] Batch 35 - Loss: 2.591259
+[2025-05-10 00:26:42] === Epoch 20/50 Summary ===
+Training Loss: 2.593414
+Validation Loss: 4.551358
+Learning Rate: 0.00005000
+[2025-05-10 00:26:42] Generating detection visualizations for epoch 20...
+[2025-05-10 00:26:43] Saved visualization to trained_models/custom_detector\visualizations\epoch_20\sample_1.png
+[2025-05-10 00:26:43] Saved visualization to trained_models/custom_detector\visualizations\epoch_20\sample_2.png
+[2025-05-10 00:26:43] Saved visualization to trained_models/custom_detector\visualizations\epoch_20\sample_3.png
+[2025-05-10 00:26:44] Batch 0 - Loss: 3.180171
+[2025-05-10 00:26:46] Batch 5 - Loss: 2.962804
+[2025-05-10 00:26:48] Batch 10 - Loss: 3.111521
+[2025-05-10 00:26:49] Batch 15 - Loss: 3.031538
+[2025-05-10 00:26:51] Batch 20 - Loss: 3.052180
+[2025-05-10 00:26:53] Batch 25 - Loss: 2.999924
+[2025-05-10 00:26:55] Batch 30 - Loss: 3.007080
+[2025-05-10 00:26:56] Batch 35 - Loss: 3.045477
+[2025-05-10 00:26:58] Batch 40 - Loss: 3.062225
+[2025-05-10 00:27:00] Batch 45 - Loss: 3.124800
+[2025-05-10 00:27:02] Batch 50 - Loss: 3.082566
+[2025-05-10 00:27:04] Batch 55 - Loss: 3.056453
+[2025-05-10 00:27:05] Batch 60 - Loss: 3.042331
+[2025-05-10 00:27:07] Batch 65 - Loss: 3.010794
+[2025-05-10 00:27:09] Batch 70 - Loss: 2.979842
+[2025-05-10 00:27:11] Batch 75 - Loss: 2.988484
+[2025-05-10 00:27:13] Batch 80 - Loss: 2.973242
+[2025-05-10 00:27:14] Batch 85 - Loss: 2.946931
+[2025-05-10 00:27:16] Batch 90 - Loss: 2.916594
+[2025-05-10 00:27:18] Batch 95 - Loss: 2.901583
+[2025-05-10 00:27:25] === Epoch 21/50 Summary ===
+Training Loss: 2.881648
+Validation Loss: 4.623405
+Learning Rate: 0.00005000
+[2025-05-10 00:27:25] Batch 0 - Loss: 2.253479
+[2025-05-10 00:27:27] Batch 5 - Loss: 2.236681
+[2025-05-10 00:27:29] Batch 10 - Loss: 2.481227
+[2025-05-10 00:27:31] Batch 15 - Loss: 2.558910
+[2025-05-10 00:27:32] Batch 20 - Loss: 2.554553
+[2025-05-10 00:27:34] Batch 25 - Loss: 2.546253
+[2025-05-10 00:27:36] Batch 30 - Loss: 2.601964
+[2025-05-10 00:27:38] Batch 35 - Loss: 2.588703
+[2025-05-10 00:27:39] Batch 40 - Loss: 2.609618
+[2025-05-10 00:27:41] Batch 45 - Loss: 2.617739
+[2025-05-10 00:27:43] Batch 50 - Loss: 2.631483
+[2025-05-10 00:27:45] Batch 55 - Loss: 2.685679
+[2025-05-10 00:27:47] Batch 60 - Loss: 2.701417
+[2025-05-10 00:27:48] Batch 65 - Loss: 2.689755
+[2025-05-10 00:27:50] Batch 70 - Loss: 2.698444
+[2025-05-10 00:27:52] Batch 75 - Loss: 2.714305
+[2025-05-10 00:27:54] Batch 80 - Loss: 2.700775
+[2025-05-10 00:27:55] Batch 85 - Loss: 2.705409
+[2025-05-10 00:27:57] Batch 90 - Loss: 2.711473
+[2025-05-10 00:27:59] Batch 95 - Loss: 2.700246
+[2025-05-10 00:28:06] === Epoch 22/50 Summary ===
+Training Loss: 2.700259
+Validation Loss: 4.617004
+Learning Rate: 0.00002500
+[2025-05-10 00:28:06] Generating detection visualizations for epoch 22...
+[2025-05-10 00:28:07] Saved visualization to trained_models/custom_detector\visualizations\epoch_22\sample_1.png
+[2025-05-10 00:28:07] Saved visualization to trained_models/custom_detector\visualizations\epoch_22\sample_2.png
+[2025-05-10 00:28:07] Saved visualization to trained_models/custom_detector\visualizations\epoch_22\sample_3.png
+[2025-05-10 00:28:08] Batch 0 - Loss: 3.287244
+[2025-05-10 00:28:09] Batch 5 - Loss: 2.297777
+[2025-05-10 00:28:11] Batch 10 - Loss: 2.553498
+[2025-05-10 00:28:13] Batch 15 - Loss: 2.545252
+[2025-05-10 00:28:15] Batch 20 - Loss: 2.565286
+[2025-05-10 00:28:17] Batch 25 - Loss: 2.496357
+[2025-05-10 00:28:18] Batch 30 - Loss: 2.538149
+[2025-05-10 00:28:20] Batch 35 - Loss: 2.548091
+[2025-05-10 00:28:22] Batch 40 - Loss: 2.573696
+[2025-05-10 00:28:24] Batch 45 - Loss: 2.572295
+[2025-05-10 00:28:25] Batch 50 - Loss: 2.570562
+[2025-05-10 00:28:27] Batch 55 - Loss: 2.546406
+[2025-05-10 00:28:29] Batch 60 - Loss: 2.553656
+[2025-05-10 00:28:31] Batch 65 - Loss: 2.566648
+[2025-05-10 00:28:33] Batch 70 - Loss: 2.547129
+[2025-05-10 00:28:34] Batch 75 - Loss: 2.521141
+[2025-05-10 00:28:36] Batch 80 - Loss: 2.517455
+[2025-05-10 00:28:38] Batch 85 - Loss: 2.492904
+[2025-05-10 00:28:40] Batch 90 - Loss: 2.484123
+[2025-05-10 00:28:41] Batch 95 - Loss: 2.470971
+[2025-05-10 00:28:49] === Epoch 23/50 Summary ===
+Training Loss: 2.457917
+Validation Loss: 4.455526
+Learning Rate: 0.00002500
+[2025-05-10 00:28:49] Batch 0 - Loss: 1.957899
+[2025-05-10 00:28:51] Batch 5 - Loss: 2.140031
+[2025-05-10 00:28:53] Batch 10 - Loss: 2.092728
+[2025-05-10 00:28:55] Batch 15 - Loss: 2.211251
+[2025-05-10 00:28:56] Batch 20 - Loss: 2.249727
+[2025-05-10 00:28:58] Batch 25 - Loss: 2.225542
+[2025-05-10 00:29:00] Batch 30 - Loss: 2.240725
+[2025-05-10 00:29:02] Batch 35 - Loss: 2.263922
+[2025-05-10 00:29:08] === Epoch 24/50 Summary ===
+Training Loss: 2.257920
+Validation Loss: 4.453082
+Learning Rate: 0.00002500
+[2025-05-10 00:29:08] Generating detection visualizations for epoch 24...
+[2025-05-10 00:29:09] Saved visualization to trained_models/custom_detector\visualizations\epoch_24\sample_1.png
+[2025-05-10 00:29:09] Saved visualization to trained_models/custom_detector\visualizations\epoch_24\sample_2.png
+[2025-05-10 00:29:09] Saved visualization to trained_models/custom_detector\visualizations\epoch_24\sample_3.png
+[2025-05-10 00:29:10] Batch 0 - Loss: 2.701151
+[2025-05-10 00:29:12] Batch 5 - Loss: 2.893719
+[2025-05-10 00:29:14] Batch 10 - Loss: 2.947093
+[2025-05-10 00:29:16] Batch 15 - Loss: 2.816990
+[2025-05-10 00:29:18] Batch 20 - Loss: 2.781607
+[2025-05-10 00:29:19] Batch 25 - Loss: 2.782933
+[2025-05-10 00:29:21] Batch 30 - Loss: 2.721803
+[2025-05-10 00:29:23] Batch 35 - Loss: 2.708387
+[2025-05-10 00:29:25] Batch 40 - Loss: 2.699948
+[2025-05-10 00:29:26] Batch 45 - Loss: 2.701129
+[2025-05-10 00:29:28] Batch 50 - Loss: 2.683936
+[2025-05-10 00:29:30] Batch 55 - Loss: 2.650093
+[2025-05-10 00:29:32] Batch 60 - Loss: 2.643082
+[2025-05-10 00:29:34] Batch 65 - Loss: 2.630141
+[2025-05-10 00:29:36] Batch 70 - Loss: 2.605732
+[2025-05-10 00:29:37] Batch 75 - Loss: 2.593183
+[2025-05-10 00:29:39] Batch 80 - Loss: 2.569223
+[2025-05-10 00:29:41] Batch 85 - Loss: 2.564670
+[2025-05-10 00:29:43] Batch 90 - Loss: 2.545994
+[2025-05-10 00:29:44] Batch 95 - Loss: 2.535491
+[2025-05-10 00:29:52] === Epoch 25/50 Summary ===
+Training Loss: 2.542491
+Validation Loss: 4.429645
+Learning Rate: 0.00002500
+[2025-05-10 00:29:52] Batch 0 - Loss: 2.254702
+[2025-05-10 00:29:54] Batch 5 - Loss: 2.430789
+[2025-05-10 00:29:56] Batch 10 - Loss: 2.429722
+[2025-05-10 00:29:58] Batch 15 - Loss: 2.384176
+[2025-05-10 00:29:59] Batch 20 - Loss: 2.403480
+[2025-05-10 00:30:01] Batch 25 - Loss: 2.434527
+[2025-05-10 00:30:03] Batch 30 - Loss: 2.406184
+[2025-05-10 00:30:05] Batch 35 - Loss: 2.377205
+[2025-05-10 00:30:07] Batch 40 - Loss: 2.362635
+[2025-05-10 00:30:08] Batch 45 - Loss: 2.365703
+[2025-05-10 00:30:10] Batch 50 - Loss: 2.374023
+[2025-05-10 00:30:12] Batch 55 - Loss: 2.372849
+[2025-05-10 00:30:14] Batch 60 - Loss: 2.408725
+[2025-05-10 00:30:16] Batch 65 - Loss: 2.404315
+[2025-05-10 00:30:18] Batch 70 - Loss: 2.401598
+[2025-05-10 00:30:20] Batch 75 - Loss: 2.381816
+[2025-05-10 00:30:21] Batch 80 - Loss: 2.414608
+[2025-05-10 00:30:23] Batch 85 - Loss: 2.404137
+[2025-05-10 00:30:25] Batch 90 - Loss: 2.391572
+[2025-05-10 00:30:27] Batch 95 - Loss: 2.387136
+[2025-05-10 00:30:35] === Epoch 26/50 Summary ===
+Training Loss: 2.385254
+Validation Loss: 4.422544
+Learning Rate: 0.00002500
+[2025-05-10 00:30:35] Generating detection visualizations for epoch 26...
+[2025-05-10 00:30:35] Saved visualization to trained_models/custom_detector\visualizations\epoch_26\sample_1.png
+[2025-05-10 00:30:35] Saved visualization to trained_models/custom_detector\visualizations\epoch_26\sample_2.png
+[2025-05-10 00:30:36] Saved visualization to trained_models/custom_detector\visualizations\epoch_26\sample_3.png
+[2025-05-10 00:30:36] Batch 0 - Loss: 2.336368
+[2025-05-10 00:30:38] Batch 5 - Loss: 2.237692
+[2025-05-10 00:30:40] Batch 10 - Loss: 2.260349
+[2025-05-10 00:30:41] Batch 15 - Loss: 2.277071
+[2025-05-10 00:30:43] Batch 20 - Loss: 2.330515
+[2025-05-10 00:30:45] Batch 25 - Loss: 2.333964
+[2025-05-10 00:30:47] Batch 30 - Loss: 2.381514
+[2025-05-10 00:30:49] Batch 35 - Loss: 2.381444
+[2025-05-10 00:30:51] Batch 40 - Loss: 2.395352
+[2025-05-10 00:30:52] Batch 45 - Loss: 2.371878
+[2025-05-10 00:30:54] Batch 50 - Loss: 2.368026
+[2025-05-10 00:30:56] Batch 55 - Loss: 2.378977
+[2025-05-10 00:30:58] Batch 60 - Loss: 2.358902
+[2025-05-10 00:31:00] Batch 65 - Loss: 2.355071
+[2025-05-10 00:31:02] Batch 70 - Loss: 2.332394
+[2025-05-10 00:31:03] Batch 75 - Loss: 2.320809
+[2025-05-10 00:31:05] Batch 80 - Loss: 2.316568
+[2025-05-10 00:31:07] Batch 85 - Loss: 2.310574
+[2025-05-10 00:31:09] Batch 90 - Loss: 2.298155
+[2025-05-10 00:31:11] Batch 95 - Loss: 2.286688
+[2025-05-10 00:31:18] === Epoch 27/50 Summary ===
+Training Loss: 2.283623
+Validation Loss: 4.433585
+Learning Rate: 0.00002500
+[2025-05-10 00:31:19] Batch 0 - Loss: 2.080670
+[2025-05-10 00:31:20] Batch 5 - Loss: 2.414046
+[2025-05-10 00:31:22] Batch 10 - Loss: 2.288057
+[2025-05-10 00:31:24] Batch 15 - Loss: 2.247735
+[2025-05-10 00:31:26] Batch 20 - Loss: 2.202812
+[2025-05-10 00:31:27] Batch 25 - Loss: 2.243840
+[2025-05-10 00:31:29] Batch 30 - Loss: 2.231471
+[2025-05-10 00:31:31] Batch 35 - Loss: 2.230795
+[2025-05-10 00:31:38] === Epoch 28/50 Summary ===
+Training Loss: 2.231032
+Validation Loss: 4.398694
+Learning Rate: 0.00002500
+[2025-05-10 00:31:38] Generating detection visualizations for epoch 28...
+[2025-05-10 00:31:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_28\sample_1.png
+[2025-05-10 00:31:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_28\sample_2.png
+[2025-05-10 00:31:39] Saved visualization to trained_models/custom_detector\visualizations\epoch_28\sample_3.png
+[2025-05-10 00:31:39] Batch 0 - Loss: 2.859915
+[2025-05-10 00:31:41] Batch 5 - Loss: 2.766867
+[2025-05-10 00:31:43] Batch 10 - Loss: 2.791152
+[2025-05-10 00:31:45] Batch 15 - Loss: 2.660526
+[2025-05-10 00:31:47] Batch 20 - Loss: 2.740229
+[2025-05-10 00:31:48] Batch 25 - Loss: 2.691391
+[2025-05-10 00:31:50] Batch 30 - Loss: 2.641535
+[2025-05-10 00:31:52] Batch 35 - Loss: 2.618637
+[2025-05-10 00:31:54] Batch 40 - Loss: 2.611752
+[2025-05-10 00:31:56] Batch 45 - Loss: 2.596893
+[2025-05-10 00:31:58] Batch 50 - Loss: 2.586914
+[2025-05-10 00:32:00] Batch 55 - Loss: 2.573311
+[2025-05-10 00:32:01] Batch 60 - Loss: 2.549569
+[2025-05-10 00:32:03] Batch 65 - Loss: 2.518046
+[2025-05-10 00:32:05] Batch 70 - Loss: 2.494593
+[2025-05-10 00:32:07] Batch 75 - Loss: 2.484629
+[2025-05-10 00:32:09] Batch 80 - Loss: 2.474932
+[2025-05-10 00:32:10] Batch 85 - Loss: 2.453214
+[2025-05-10 00:32:12] Batch 90 - Loss: 2.444344
+[2025-05-10 00:32:14] Batch 95 - Loss: 2.448564
+[2025-05-10 00:32:22] === Epoch 29/50 Summary ===
+Training Loss: 2.439311
+Validation Loss: 4.472185
+Learning Rate: 0.00002500
+[2025-05-10 00:32:22] Batch 0 - Loss: 2.030976
+[2025-05-10 00:32:24] Batch 5 - Loss: 2.106603
+[2025-05-10 00:32:26] Batch 10 - Loss: 2.176711
+[2025-05-10 00:32:27] Batch 15 - Loss: 2.168021
+[2025-05-10 00:32:29] Batch 20 - Loss: 2.200231
+[2025-05-10 00:32:31] Batch 25 - Loss: 2.261844
+[2025-05-10 00:32:33] Batch 30 - Loss: 2.243719
+[2025-05-10 00:32:35] Batch 35 - Loss: 2.280930
+[2025-05-10 00:32:37] Batch 40 - Loss: 2.253928
+[2025-05-10 00:32:39] Batch 45 - Loss: 2.276486
+[2025-05-10 00:32:41] Batch 50 - Loss: 2.286014
+[2025-05-10 00:32:42] Batch 55 - Loss: 2.280704
+[2025-05-10 00:32:44] Batch 60 - Loss: 2.295373
+[2025-05-10 00:32:46] Batch 65 - Loss: 2.279980
+[2025-05-10 00:32:48] Batch 70 - Loss: 2.290047
+[2025-05-10 00:32:50] Batch 75 - Loss: 2.280002
+[2025-05-10 00:32:52] Batch 80 - Loss: 2.260792
+[2025-05-10 00:32:54] Batch 85 - Loss: 2.265480
+[2025-05-10 00:32:56] Batch 90 - Loss: 2.243480
+[2025-05-10 00:32:57] Batch 95 - Loss: 2.249211
+[2025-05-10 00:33:05] === Epoch 30/50 Summary ===
+Training Loss: 2.249995
+Validation Loss: 4.411106
+Learning Rate: 0.00002500
+[2025-05-10 00:33:05] Generating detection visualizations for epoch 30...
+[2025-05-10 00:33:05] Saved visualization to trained_models/custom_detector\visualizations\epoch_30\sample_1.png
+[2025-05-10 00:33:06] Saved visualization to trained_models/custom_detector\visualizations\epoch_30\sample_2.png
+[2025-05-10 00:33:06] Saved visualization to trained_models/custom_detector\visualizations\epoch_30\sample_3.png
+[2025-05-10 00:33:06] Batch 0 - Loss: 2.379358
+[2025-05-10 00:33:08] Batch 5 - Loss: 2.154172
+[2025-05-10 00:33:10] Batch 10 - Loss: 2.272862
+[2025-05-10 00:33:12] Batch 15 - Loss: 2.332736
+[2025-05-10 00:33:14] Batch 20 - Loss: 2.308986
+[2025-05-10 00:33:15] Batch 25 - Loss: 2.309589
+[2025-05-10 00:33:17] Batch 30 - Loss: 2.278842
+[2025-05-10 00:33:19] Batch 35 - Loss: 2.321026
+[2025-05-10 00:33:21] Batch 40 - Loss: 2.330959
+[2025-05-10 00:33:23] Batch 45 - Loss: 2.299216
+[2025-05-10 00:33:25] Batch 50 - Loss: 2.268829
+[2025-05-10 00:33:26] Batch 55 - Loss: 2.250414
+[2025-05-10 00:33:28] Batch 60 - Loss: 2.245196
+[2025-05-10 00:33:30] Batch 65 - Loss: 2.235572
+[2025-05-10 00:33:32] Batch 70 - Loss: 2.230955
+[2025-05-10 00:33:33] Batch 75 - Loss: 2.211804
+[2025-05-10 00:33:35] Batch 80 - Loss: 2.206439
+[2025-05-10 00:33:37] Batch 85 - Loss: 2.195347
+[2025-05-10 00:33:39] Batch 90 - Loss: 2.184998
+[2025-05-10 00:33:41] Batch 95 - Loss: 2.193954
+[2025-05-10 00:33:48] === Epoch 31/50 Summary ===
+Training Loss: 2.183964
+Validation Loss: 4.377980
+Learning Rate: 0.00002500
+[2025-05-10 00:33:49] Batch 0 - Loss: 2.136959
+[2025-05-10 00:33:50] Batch 5 - Loss: 2.138674
+[2025-05-10 00:33:52] Batch 10 - Loss: 2.156903
+[2025-05-10 00:33:54] Batch 15 - Loss: 2.181896
+[2025-05-10 00:33:56] Batch 20 - Loss: 2.123204
+[2025-05-10 00:33:57] Batch 25 - Loss: 2.092914
+[2025-05-10 00:33:59] Batch 30 - Loss: 2.081609
+[2025-05-10 00:34:01] Batch 35 - Loss: 2.089717
+[2025-05-10 00:34:07] === Epoch 32/50 Summary ===
+Training Loss: 2.085546
+Validation Loss: 4.431135
+Learning Rate: 0.00002500
+[2025-05-10 00:34:07] Generating detection visualizations for epoch 32...
+[2025-05-10 00:34:08] Saved visualization to trained_models/custom_detector\visualizations\epoch_32\sample_1.png
+[2025-05-10 00:34:08] Saved visualization to trained_models/custom_detector\visualizations\epoch_32\sample_2.png
+[2025-05-10 00:34:08] Saved visualization to trained_models/custom_detector\visualizations\epoch_32\sample_3.png
+[2025-05-10 00:34:09] Batch 0 - Loss: 2.700676
+[2025-05-10 00:34:11] Batch 5 - Loss: 2.551055
+[2025-05-10 00:34:13] Batch 10 - Loss: 2.455330
+[2025-05-10 00:34:14] Batch 15 - Loss: 2.369930
+[2025-05-10 00:34:16] Batch 20 - Loss: 2.328670
+[2025-05-10 00:34:18] Batch 25 - Loss: 2.305034
+[2025-05-10 00:34:20] Batch 30 - Loss: 2.348035
+[2025-05-10 00:34:21] Batch 35 - Loss: 2.352199
+[2025-05-10 00:34:23] Batch 40 - Loss: 2.360836
+[2025-05-10 00:34:25] Batch 45 - Loss: 2.387609
+[2025-05-10 00:34:27] Batch 50 - Loss: 2.395787
+[2025-05-10 00:34:28] Batch 55 - Loss: 2.408045
+[2025-05-10 00:34:30] Batch 60 - Loss: 2.424935
+[2025-05-10 00:34:32] Batch 65 - Loss: 2.406261
+[2025-05-10 00:34:34] Batch 70 - Loss: 2.388941
+[2025-05-10 00:34:35] Batch 75 - Loss: 2.374304
+[2025-05-10 00:34:37] Batch 80 - Loss: 2.353984
+[2025-05-10 00:34:39] Batch 85 - Loss: 2.337673
+[2025-05-10 00:34:41] Batch 90 - Loss: 2.335790
+[2025-05-10 00:34:42] Batch 95 - Loss: 2.333965
+[2025-05-10 00:34:49] === Epoch 33/50 Summary ===
+Training Loss: 2.333987
+Validation Loss: 4.439414
+Learning Rate: 0.00002500
+[2025-05-10 00:34:50] Batch 0 - Loss: 2.064390
+[2025-05-10 00:34:51] Batch 5 - Loss: 2.138406
+[2025-05-10 00:34:53] Batch 10 - Loss: 2.214896
+[2025-05-10 00:34:55] Batch 15 - Loss: 2.182604
+[2025-05-10 00:34:57] Batch 20 - Loss: 2.145609
+[2025-05-10 00:34:58] Batch 25 - Loss: 2.141199
+[2025-05-10 00:35:00] Batch 30 - Loss: 2.106452
+[2025-05-10 00:35:02] Batch 35 - Loss: 2.115015
+[2025-05-10 00:35:04] Batch 40 - Loss: 2.132967
+[2025-05-10 00:35:05] Batch 45 - Loss: 2.160521
+[2025-05-10 00:35:07] Batch 50 - Loss: 2.170149
+[2025-05-10 00:35:09] Batch 55 - Loss: 2.199822
+[2025-05-10 00:35:10] Batch 60 - Loss: 2.186257
+[2025-05-10 00:35:12] Batch 65 - Loss: 2.174016
+[2025-05-10 00:35:14] Batch 70 - Loss: 2.153637
+[2025-05-10 00:35:16] Batch 75 - Loss: 2.161471
+[2025-05-10 00:35:17] Batch 80 - Loss: 2.155072
+[2025-05-10 00:35:19] Batch 85 - Loss: 2.159002
+[2025-05-10 00:35:21] Batch 90 - Loss: 2.161081
+[2025-05-10 00:35:22] Batch 95 - Loss: 2.154633
+[2025-05-10 00:35:29] === Epoch 34/50 Summary ===
+Training Loss: 2.152041
+Validation Loss: 4.383536
+Learning Rate: 0.00001250
+[2025-05-10 00:35:29] Generating detection visualizations for epoch 34...
+[2025-05-10 00:35:30] Saved visualization to trained_models/custom_detector\visualizations\epoch_34\sample_1.png
+[2025-05-10 00:35:30] Saved visualization to trained_models/custom_detector\visualizations\epoch_34\sample_2.png
+[2025-05-10 00:35:31] Saved visualization to trained_models/custom_detector\visualizations\epoch_34\sample_3.png
+[2025-05-10 00:35:31] Batch 0 - Loss: 2.052749
+[2025-05-10 00:35:33] Batch 5 - Loss: 2.231258
+[2025-05-10 00:35:34] Batch 10 - Loss: 2.235286
+[2025-05-10 00:35:36] Batch 15 - Loss: 2.119699
+[2025-05-10 00:35:38] Batch 20 - Loss: 2.107985
+[2025-05-10 00:35:40] Batch 25 - Loss: 2.068273
+[2025-05-10 00:35:41] Batch 30 - Loss: 2.034101
+[2025-05-10 00:35:43] Batch 35 - Loss: 2.064185
+[2025-05-10 00:35:45] Batch 40 - Loss: 2.078442
+[2025-05-10 00:35:46] Batch 45 - Loss: 2.115475
+[2025-05-10 00:35:48] Batch 50 - Loss: 2.113979
+[2025-05-10 00:35:50] Batch 55 - Loss: 2.115634
+[2025-05-10 00:35:52] Batch 60 - Loss: 2.125005
+[2025-05-10 00:35:53] Batch 65 - Loss: 2.109961
+[2025-05-10 00:35:55] Batch 70 - Loss: 2.111626
+[2025-05-10 00:35:57] Batch 75 - Loss: 2.089818
+[2025-05-10 00:35:59] Batch 80 - Loss: 2.092020
+[2025-05-10 00:36:00] Batch 85 - Loss: 2.078434
+[2025-05-10 00:36:02] Batch 90 - Loss: 2.071781
+[2025-05-10 00:36:04] Batch 95 - Loss: 2.094240
+[2025-05-10 00:36:11] === Epoch 35/50 Summary ===
+Training Loss: 2.092898
+Validation Loss: 4.370889
+Learning Rate: 0.00001250
+[2025-05-10 00:36:11] Batch 0 - Loss: 2.251276
+[2025-05-10 00:36:13] Batch 5 - Loss: 1.987419
+[2025-05-10 00:36:15] Batch 10 - Loss: 2.009209
+[2025-05-10 00:36:16] Batch 15 - Loss: 1.942551
+[2025-05-10 00:36:18] Batch 20 - Loss: 1.974063
+[2025-05-10 00:36:20] Batch 25 - Loss: 1.937611
+[2025-05-10 00:36:21] Batch 30 - Loss: 1.911477
+[2025-05-10 00:36:23] Batch 35 - Loss: 1.916129
+[2025-05-10 00:36:29] === Epoch 36/50 Summary ===
+Training Loss: 1.910525
+Validation Loss: 4.373872
+Learning Rate: 0.00001250
+[2025-05-10 00:36:29] Generating detection visualizations for epoch 36...
+[2025-05-10 00:36:29] Saved visualization to trained_models/custom_detector\visualizations\epoch_36\sample_1.png
+[2025-05-10 00:36:30] Saved visualization to trained_models/custom_detector\visualizations\epoch_36\sample_2.png
+[2025-05-10 00:36:30] Saved visualization to trained_models/custom_detector\visualizations\epoch_36\sample_3.png
+[2025-05-10 00:36:31] Batch 0 - Loss: 2.904724
+[2025-05-10 00:36:33] Batch 5 - Loss: 2.209568
+[2025-05-10 00:36:35] Batch 10 - Loss: 2.196069
+[2025-05-10 00:36:36] Batch 15 - Loss: 2.181470
+[2025-05-10 00:36:38] Batch 20 - Loss: 2.262921
+[2025-05-10 00:36:40] Batch 25 - Loss: 2.314237
+[2025-05-10 00:36:42] Batch 30 - Loss: 2.329071
+[2025-05-10 00:36:43] Batch 35 - Loss: 2.261373
+[2025-05-10 00:36:45] Batch 40 - Loss: 2.270971
+[2025-05-10 00:36:47] Batch 45 - Loss: 2.291027
+[2025-05-10 00:36:48] Batch 50 - Loss: 2.305907
+[2025-05-10 00:36:50] Batch 55 - Loss: 2.292906
+[2025-05-10 00:36:52] Batch 60 - Loss: 2.294289
+[2025-05-10 00:36:54] Batch 65 - Loss: 2.273198
+[2025-05-10 00:36:55] Batch 70 - Loss: 2.251666
+[2025-05-10 00:36:57] Batch 75 - Loss: 2.233906
+[2025-05-10 00:36:59] Batch 80 - Loss: 2.225100
+[2025-05-10 00:37:01] Batch 85 - Loss: 2.208715
+[2025-05-10 00:37:02] Batch 90 - Loss: 2.191911
+[2025-05-10 00:37:04] Batch 95 - Loss: 2.196360
+[2025-05-10 00:37:11] === Epoch 37/50 Summary ===
+Training Loss: 2.200140
+Validation Loss: 4.415080
+Learning Rate: 0.00001250
+[2025-05-10 00:37:12] Batch 0 - Loss: 1.930114
+[2025-05-10 00:37:13] Batch 5 - Loss: 2.147953
+[2025-05-10 00:37:15] Batch 10 - Loss: 1.967253
+[2025-05-10 00:37:17] Batch 15 - Loss: 1.985087
+[2025-05-10 00:37:19] Batch 20 - Loss: 1.974571
+[2025-05-10 00:37:20] Batch 25 - Loss: 1.993379
+[2025-05-10 00:37:22] Batch 30 - Loss: 2.041806
+[2025-05-10 00:37:24] Batch 35 - Loss: 2.032984
+[2025-05-10 00:37:25] Batch 40 - Loss: 2.018857
+[2025-05-10 00:37:27] Batch 45 - Loss: 2.048173
+[2025-05-10 00:37:29] Batch 50 - Loss: 2.064215
+[2025-05-10 00:37:31] Batch 55 - Loss: 2.051683
+[2025-05-10 00:37:32] Batch 60 - Loss: 2.043947
+[2025-05-10 00:37:34] Batch 65 - Loss: 2.078295
+[2025-05-10 00:37:36] Batch 70 - Loss: 2.062119
+[2025-05-10 00:37:38] Batch 75 - Loss: 2.065641
+[2025-05-10 00:37:39] Batch 80 - Loss: 2.044415
+[2025-05-10 00:37:41] Batch 85 - Loss: 2.043546
+[2025-05-10 00:37:43] Batch 90 - Loss: 2.053659
+[2025-05-10 00:37:45] Batch 95 - Loss: 2.062710
+[2025-05-10 00:37:52] === Epoch 38/50 Summary ===
+Training Loss: 2.054143
+Validation Loss: 4.385566
+Learning Rate: 0.00000625
+[2025-05-10 00:37:52] Generating detection visualizations for epoch 38...
+[2025-05-10 00:37:52] Saved visualization to trained_models/custom_detector\visualizations\epoch_38\sample_1.png
+[2025-05-10 00:37:52] Saved visualization to trained_models/custom_detector\visualizations\epoch_38\sample_2.png
+[2025-05-10 00:37:53] Saved visualization to trained_models/custom_detector\visualizations\epoch_38\sample_3.png
+[2025-05-10 00:37:53] Batch 0 - Loss: 1.592399
+[2025-05-10 00:37:55] Batch 5 - Loss: 1.855586
+[2025-05-10 00:37:57] Batch 10 - Loss: 1.873986
+[2025-05-10 00:37:58] Batch 15 - Loss: 2.016635
+[2025-05-10 00:38:00] Batch 20 - Loss: 2.111251
+[2025-05-10 00:38:02] Batch 25 - Loss: 2.066695
+[2025-05-10 00:38:04] Batch 30 - Loss: 2.082524
+[2025-05-10 00:38:05] Batch 35 - Loss: 2.098832
+[2025-05-10 00:38:07] Batch 40 - Loss: 2.110057
+[2025-05-10 00:38:09] Batch 45 - Loss: 2.095369
+[2025-05-10 00:38:11] Batch 50 - Loss: 2.097409
+[2025-05-10 00:38:13] Batch 55 - Loss: 2.082964
+[2025-05-10 00:38:14] Batch 60 - Loss: 2.095965
+[2025-05-10 00:38:16] Batch 65 - Loss: 2.087663
+[2025-05-10 00:38:18] Batch 70 - Loss: 2.082687
+[2025-05-10 00:38:20] Batch 75 - Loss: 2.088384
+[2025-05-10 00:38:21] Batch 80 - Loss: 2.067849
+[2025-05-10 00:38:23] Batch 85 - Loss: 2.061767
+[2025-05-10 00:38:25] Batch 90 - Loss: 2.056710
+[2025-05-10 00:38:26] Batch 95 - Loss: 2.040628
+[2025-05-10 00:38:34] === Epoch 39/50 Summary ===
+Training Loss: 2.030518
+Validation Loss: 4.341605
+Learning Rate: 0.00000625
+[2025-05-10 00:38:34] Batch 0 - Loss: 2.136439
+[2025-05-10 00:38:36] Batch 5 - Loss: 1.953198
+[2025-05-10 00:38:38] Batch 10 - Loss: 1.908440
+[2025-05-10 00:38:39] Batch 15 - Loss: 1.862728
+[2025-05-10 00:38:41] Batch 20 - Loss: 1.858428
+[2025-05-10 00:38:43] Batch 25 - Loss: 1.825597
+[2025-05-10 00:38:44] Batch 30 - Loss: 1.825549
+[2025-05-10 00:38:46] Batch 35 - Loss: 1.832091
+[2025-05-10 00:38:52] === Epoch 40/50 Summary ===
+Training Loss: 1.841535
+Validation Loss: 4.368810
+Learning Rate: 0.00000625
+[2025-05-10 00:38:52] Generating detection visualizations for epoch 40...
+[2025-05-10 00:38:53] Saved visualization to trained_models/custom_detector\visualizations\epoch_40\sample_1.png
+[2025-05-10 00:38:53] Saved visualization to trained_models/custom_detector\visualizations\epoch_40\sample_2.png
+[2025-05-10 00:38:53] Saved visualization to trained_models/custom_detector\visualizations\epoch_40\sample_3.png
+[2025-05-10 00:38:54] Batch 0 - Loss: 1.389171
+[2025-05-10 00:38:56] Batch 5 - Loss: 2.271214
+[2025-05-10 00:38:57] Batch 10 - Loss: 2.252069
+[2025-05-10 00:38:59] Batch 15 - Loss: 2.204973
+[2025-05-10 00:39:01] Batch 20 - Loss: 2.171406
+[2025-05-10 00:39:03] Batch 25 - Loss: 2.158442
+[2025-05-10 00:39:04] Batch 30 - Loss: 2.135365
+[2025-05-10 00:39:06] Batch 35 - Loss: 2.130989
+[2025-05-10 00:39:08] Batch 40 - Loss: 2.119565
+[2025-05-10 00:39:10] Batch 45 - Loss: 2.140669
+[2025-05-10 00:39:11] Batch 50 - Loss: 2.165532
+[2025-05-10 00:39:13] Batch 55 - Loss: 2.163259
+[2025-05-10 00:39:15] Batch 60 - Loss: 2.172608
+[2025-05-10 00:39:17] Batch 65 - Loss: 2.165693
+[2025-05-10 00:39:18] Batch 70 - Loss: 2.159710
+[2025-05-10 00:39:20] Batch 75 - Loss: 2.140625
+[2025-05-10 00:39:22] Batch 80 - Loss: 2.131751
+[2025-05-10 00:39:24] Batch 85 - Loss: 2.133161
+[2025-05-10 00:39:26] Batch 90 - Loss: 2.116105
+[2025-05-10 00:39:27] Batch 95 - Loss: 2.103084
+[2025-05-10 00:39:35] === Epoch 41/50 Summary ===
+Training Loss: 2.089028
+Validation Loss: 4.419278
+Learning Rate: 0.00000625
+[2025-05-10 00:39:35] Batch 0 - Loss: 1.732833
+[2025-05-10 00:39:37] Batch 5 - Loss: 1.978370
+[2025-05-10 00:39:39] Batch 10 - Loss: 1.957070
+[2025-05-10 00:39:40] Batch 15 - Loss: 2.002951
+[2025-05-10 00:39:42] Batch 20 - Loss: 1.998954
+[2025-05-10 00:39:44] Batch 25 - Loss: 1.974890
+[2025-05-10 00:39:46] Batch 30 - Loss: 1.979912
+[2025-05-10 00:39:47] Batch 35 - Loss: 1.965680
+[2025-05-10 00:39:49] Batch 40 - Loss: 1.963169
+[2025-05-10 00:39:51] Batch 45 - Loss: 1.955826
+[2025-05-10 00:39:53] Batch 50 - Loss: 1.936689
+[2025-05-10 00:39:54] Batch 55 - Loss: 1.974298
+[2025-05-10 00:39:56] Batch 60 - Loss: 1.996682
+[2025-05-10 00:39:58] Batch 65 - Loss: 2.010571
+[2025-05-10 00:40:00] Batch 70 - Loss: 2.013845
+[2025-05-10 00:40:01] Batch 75 - Loss: 2.041429
+[2025-05-10 00:40:03] Batch 80 - Loss: 2.040076
+[2025-05-10 00:40:05] Batch 85 - Loss: 2.044567
+[2025-05-10 00:40:07] Batch 90 - Loss: 2.033561
+[2025-05-10 00:40:08] Batch 95 - Loss: 2.032386
+[2025-05-10 00:40:16] === Epoch 42/50 Summary ===
+Training Loss: 2.026227
+Validation Loss: 4.373252
+Learning Rate: 0.00000312
+[2025-05-10 00:40:16] Generating detection visualizations for epoch 42...
+[2025-05-10 00:40:16] Saved visualization to trained_models/custom_detector\visualizations\epoch_42\sample_1.png
+[2025-05-10 00:40:16] Saved visualization to trained_models/custom_detector\visualizations\epoch_42\sample_2.png
+[2025-05-10 00:40:17] Saved visualization to trained_models/custom_detector\visualizations\epoch_42\sample_3.png
+[2025-05-10 00:40:17] Batch 0 - Loss: 2.132980
+[2025-05-10 00:40:19] Batch 5 - Loss: 2.043994
+[2025-05-10 00:40:20] Batch 10 - Loss: 1.958481
+[2025-05-10 00:40:22] Batch 15 - Loss: 1.971663
+[2025-05-10 00:40:24] Batch 20 - Loss: 1.926450
+[2025-05-10 00:40:26] Batch 25 - Loss: 1.972069
+[2025-05-10 00:40:27] Batch 30 - Loss: 1.986720
+[2025-05-10 00:40:29] Batch 35 - Loss: 1.992108
+[2025-05-10 00:40:31] Batch 40 - Loss: 2.032763
+[2025-05-10 00:40:33] Batch 45 - Loss: 2.010885
+[2025-05-10 00:40:34] Batch 50 - Loss: 2.021739
+[2025-05-10 00:40:36] Batch 55 - Loss: 2.006567
+[2025-05-10 00:40:38] Batch 60 - Loss: 1.997158
+[2025-05-10 00:40:40] Batch 65 - Loss: 1.993682
+[2025-05-10 00:40:41] Batch 70 - Loss: 1.987761
+[2025-05-10 00:40:43] Batch 75 - Loss: 1.973148
+[2025-05-10 00:40:45] Batch 80 - Loss: 1.968479
+[2025-05-10 00:40:46] Batch 85 - Loss: 1.953273
+[2025-05-10 00:40:48] Batch 90 - Loss: 1.945416
+[2025-05-10 00:40:50] Batch 95 - Loss: 1.946991
+[2025-05-10 00:40:57] === Epoch 43/50 Summary ===
+Training Loss: 1.932325
+Validation Loss: 4.361884
+Learning Rate: 0.00000312
+[2025-05-10 00:40:57] Batch 0 - Loss: 1.427536
+[2025-05-10 00:40:59] Batch 5 - Loss: 1.790977
+[2025-05-10 00:41:01] Batch 10 - Loss: 1.799943
+[2025-05-10 00:41:02] Batch 15 - Loss: 1.762026
+[2025-05-10 00:41:04] Batch 20 - Loss: 1.770874
+[2025-05-10 00:41:06] Batch 25 - Loss: 1.807205
+[2025-05-10 00:41:08] Batch 30 - Loss: 1.815139
+[2025-05-10 00:41:09] Batch 35 - Loss: 1.839843
+[2025-05-10 00:41:15] === Epoch 44/50 Summary ===
+Training Loss: 1.834912
+Validation Loss: 4.356349
+Learning Rate: 0.00000312
+[2025-05-10 00:41:15] Generating detection visualizations for epoch 44...
+[2025-05-10 00:41:15] Saved visualization to trained_models/custom_detector\visualizations\epoch_44\sample_1.png
+[2025-05-10 00:41:16] Saved visualization to trained_models/custom_detector\visualizations\epoch_44\sample_2.png
+[2025-05-10 00:41:16] Saved visualization to trained_models/custom_detector\visualizations\epoch_44\sample_3.png
+[2025-05-10 00:41:17] Batch 0 - Loss: 1.753465
+[2025-05-10 00:41:19] Batch 5 - Loss: 2.126701
+[2025-05-10 00:41:20] Batch 10 - Loss: 2.027684
+[2025-05-10 00:41:22] Batch 15 - Loss: 2.042958
+[2025-05-10 00:41:24] Batch 20 - Loss: 2.071486
+[2025-05-10 00:41:26] Batch 25 - Loss: 2.034756
+[2025-05-10 00:41:27] Batch 30 - Loss: 2.056676
+[2025-05-10 00:41:29] Batch 35 - Loss: 2.086139
+[2025-05-10 00:41:31] Batch 40 - Loss: 2.082116
+[2025-05-10 00:41:33] Batch 45 - Loss: 2.062127
+[2025-05-10 00:41:34] Batch 50 - Loss: 2.085835
+[2025-05-10 00:41:36] Batch 55 - Loss: 2.083482
+[2025-05-10 00:41:38] Batch 60 - Loss: 2.077195
+[2025-05-10 00:41:39] Batch 65 - Loss: 2.058488
+[2025-05-10 00:41:41] Batch 70 - Loss: 2.048412
+[2025-05-10 00:41:43] Batch 75 - Loss: 2.041717
+[2025-05-10 00:41:45] Batch 80 - Loss: 2.043548
+[2025-05-10 00:41:46] Batch 85 - Loss: 2.035191
+[2025-05-10 00:41:48] Batch 90 - Loss: 2.027842
+[2025-05-10 00:41:50] Batch 95 - Loss: 2.008418
+[2025-05-10 00:41:57] === Epoch 45/50 Summary ===
+Training Loss: 2.009406
+Validation Loss: 4.402150
+Learning Rate: 0.00000156
+[2025-05-10 00:41:57] Batch 0 - Loss: 2.258722
+[2025-05-10 00:41:59] Batch 5 - Loss: 1.967278
+[2025-05-10 00:42:01] Batch 10 - Loss: 1.905419
+[2025-05-10 00:42:02] Batch 15 - Loss: 1.956486
+[2025-05-10 00:42:04] Batch 20 - Loss: 1.955695
+[2025-05-10 00:42:06] Batch 25 - Loss: 1.990341
+[2025-05-10 00:42:08] Batch 30 - Loss: 1.983078
+[2025-05-10 00:42:09] Batch 35 - Loss: 1.944106
+[2025-05-10 00:42:11] Batch 40 - Loss: 1.958189
+[2025-05-10 00:42:13] Batch 45 - Loss: 1.980123
+[2025-05-10 00:42:15] Batch 50 - Loss: 1.976275
+[2025-05-10 00:42:16] Batch 55 - Loss: 1.981560
+[2025-05-10 00:42:18] Batch 60 - Loss: 2.001034
+[2025-05-10 00:42:20] Batch 65 - Loss: 2.022838
+[2025-05-10 00:42:22] Batch 70 - Loss: 2.025752
+[2025-05-10 00:42:23] Batch 75 - Loss: 2.015239
+[2025-05-10 00:42:25] Batch 80 - Loss: 2.007948
+[2025-05-10 00:42:27] Batch 85 - Loss: 2.005534
+[2025-05-10 00:42:29] Batch 90 - Loss: 1.993335
+[2025-05-10 00:42:30] Batch 95 - Loss: 1.982324
+[2025-05-10 00:42:37] === Epoch 46/50 Summary ===
+Training Loss: 1.968477
+Validation Loss: 4.371111
+Learning Rate: 0.00000156
+[2025-05-10 00:42:37] Generating detection visualizations for epoch 46...
+[2025-05-10 00:42:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_46\sample_1.png
+[2025-05-10 00:42:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_46\sample_2.png
+[2025-05-10 00:42:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_46\sample_3.png
+[2025-05-10 00:42:39] Batch 0 - Loss: 2.168231
+[2025-05-10 00:42:41] Batch 5 - Loss: 1.898155
+[2025-05-10 00:42:42] Batch 10 - Loss: 1.922435
+[2025-05-10 00:42:44] Batch 15 - Loss: 2.033951
+[2025-05-10 00:42:46] Batch 20 - Loss: 2.051181
+[2025-05-10 00:42:47] Batch 25 - Loss: 1.995578
+[2025-05-10 00:42:49] Batch 30 - Loss: 2.014082
+[2025-05-10 00:42:51] Batch 35 - Loss: 2.015157
+[2025-05-10 00:42:53] Batch 40 - Loss: 2.010511
+[2025-05-10 00:42:54] Batch 45 - Loss: 1.993878
+[2025-05-10 00:42:56] Batch 50 - Loss: 1.990539
+[2025-05-10 00:42:58] Batch 55 - Loss: 1.986294
+[2025-05-10 00:43:00] Batch 60 - Loss: 1.980403
+[2025-05-10 00:43:01] Batch 65 - Loss: 1.974131
+[2025-05-10 00:43:03] Batch 70 - Loss: 1.974545
+[2025-05-10 00:43:05] Batch 75 - Loss: 1.975619
+[2025-05-10 00:43:07] Batch 80 - Loss: 1.964349
+[2025-05-10 00:43:08] Batch 85 - Loss: 1.955668
+[2025-05-10 00:43:10] Batch 90 - Loss: 1.948296
+[2025-05-10 00:43:12] Batch 95 - Loss: 1.943284
+[2025-05-10 00:43:19] === Epoch 47/50 Summary ===
+Training Loss: 1.942298
+Validation Loss: 4.363221
+Learning Rate: 0.00000156
+[2025-05-10 00:43:19] Batch 0 - Loss: 1.848109
+[2025-05-10 00:43:21] Batch 5 - Loss: 1.867772
+[2025-05-10 00:43:23] Batch 10 - Loss: 1.791729
+[2025-05-10 00:43:24] Batch 15 - Loss: 1.795877
+[2025-05-10 00:43:26] Batch 20 - Loss: 1.813987
+[2025-05-10 00:43:28] Batch 25 - Loss: 1.840179
+[2025-05-10 00:43:29] Batch 30 - Loss: 1.849967
+[2025-05-10 00:43:31] Batch 35 - Loss: 1.849637
+[2025-05-10 00:43:37] === Epoch 48/50 Summary ===
+Training Loss: 1.848749
+Validation Loss: 4.372518
+Learning Rate: 0.00000100
+[2025-05-10 00:43:37] Generating detection visualizations for epoch 48...
+[2025-05-10 00:43:37] Saved visualization to trained_models/custom_detector\visualizations\epoch_48\sample_1.png
+[2025-05-10 00:43:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_48\sample_2.png
+[2025-05-10 00:43:38] Saved visualization to trained_models/custom_detector\visualizations\epoch_48\sample_3.png
+[2025-05-10 00:43:39] Batch 0 - Loss: 2.034221
+[2025-05-10 00:43:41] Batch 5 - Loss: 2.035331
+[2025-05-10 00:43:42] Batch 10 - Loss: 2.021758
+[2025-05-10 00:43:44] Batch 15 - Loss: 2.016984
+[2025-05-10 00:43:46] Batch 20 - Loss: 2.027268
+[2025-05-10 00:43:48] Batch 25 - Loss: 2.086493
+[2025-05-10 00:43:49] Batch 30 - Loss: 2.057975
+[2025-05-10 00:43:51] Batch 35 - Loss: 2.067978
+[2025-05-10 00:43:53] Batch 40 - Loss: 2.079194
+[2025-05-10 00:43:54] Batch 45 - Loss: 2.074203
+[2025-05-10 00:43:56] Batch 50 - Loss: 2.059823
+[2025-05-10 00:43:58] Batch 55 - Loss: 2.083485
+[2025-05-10 00:44:00] Batch 60 - Loss: 2.087106
+[2025-05-10 00:44:01] Batch 65 - Loss: 2.071147
+[2025-05-10 00:44:03] Batch 70 - Loss: 2.067728
+[2025-05-10 00:44:05] Batch 75 - Loss: 2.061231
+[2025-05-10 00:44:07] Batch 80 - Loss: 2.057671
+[2025-05-10 00:44:08] Batch 85 - Loss: 2.040185
+[2025-05-10 00:44:10] Batch 90 - Loss: 2.026622
+[2025-05-10 00:44:12] Batch 95 - Loss: 2.018476
+[2025-05-10 00:44:19] === Epoch 49/50 Summary ===
+Training Loss: 2.012504
+Validation Loss: 4.407426
+Learning Rate: 0.00000100
+[2025-05-10 00:44:19] === Training Completed ===
+[2025-05-10 00:44:19] Best epoch: 39
+[2025-05-10 00:44:19] Best validation loss: 4.341605
+[2025-05-10 00:44:19] Model training completed in 29.85 minutes
+[2025-05-10 00:44:19] Model saved to trained_models/custom_detector\final_model.keras
+[2025-05-10 00:44:19] Error during training: The filename must end in `.weights.h5`. Received: filepath=trained_models/custom_detector\final_model_weights.h5

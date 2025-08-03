@@ -1,0 +1,32 @@
+
+==================================================
+OVERALL EVALUATION RESULTS
+==================================================
+IoU Threshold: 0.5
+Confidence Threshold: 0.2
+Total True Positives: 175
+Total False Positives: 348
+Total False Negatives: 432
+Precision: 0.3346
+Recall: 0.2883
+F1 Score: 0.3097
+
+==================================================
+PER-CLASS EVALUATION RESULTS
+==================================================
+
+Class: enemy
+  True Positives: 109
+  False Positives: 130
+  False Negatives: 202
+  Precision: 0.4561
+  Recall: 0.3505
+  F1 Score: 0.3964
+
+Class: enemy_head
+  True Positives: 66
+  False Positives: 218
+  False Negatives: 230
+  Precision: 0.2324
+  Recall: 0.2230
+  F1 Score: 0.2276

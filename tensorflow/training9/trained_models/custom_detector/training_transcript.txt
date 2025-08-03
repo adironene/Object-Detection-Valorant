@@ -1,0 +1,1137 @@
+[2025-05-11 14:21:24] Starting training session
+Model configuration: IMAGE_SIZE=(416, 416), BATCH_SIZE=16, EPOCHS=100, LEARNING_RATE=0.0001
+
+[2025-05-11 14:21:24] === Starting Valorany Detector ===
+[2025-05-11 14:21:24] Training data: ../tf_files/train.record
+[2025-05-11 14:21:24] Validation data: ../tf_files/valid.record
+[2025-05-11 14:21:24] Loading data from ../tf_files/train.record and ../tf_files/valid.record
+[2025-05-11 14:21:24] Estimating dataset sizes...
+[2025-05-11 14:21:24] Train dataset size: ~337 batches (approx. 5385 examples)
+[2025-05-11 14:21:24] Validation dataset size: ~33 batches (approx. 514 examples)
+[2025-05-11 14:21:24] Creating model...
+[2025-05-11 14:21:25] Starting model training...
+[2025-05-11 14:21:25] === Training Started ===
+[2025-05-11 14:21:25] Model structure:
+[2025-05-11 14:21:25] Total layers: 160
+[2025-05-11 14:21:25] Total parameters: 9,344,081
+[2025-05-11 14:21:25] Trainable parameters: 7,084,561
+[2025-05-11 14:21:25] Non-trainable parameters: 2,259,520
+[2025-05-11 14:21:28] Batch 0 - Loss: 549.039673
+[2025-05-11 14:21:30] Batch 5 - Loss: 465.869873
+[2025-05-11 14:21:32] Batch 10 - Loss: 425.405792
+[2025-05-11 14:21:34] Batch 15 - Loss: 399.961090
+[2025-05-11 14:21:35] Batch 20 - Loss: 380.924377
+[2025-05-11 14:21:37] Batch 25 - Loss: 363.555145
+[2025-05-11 14:21:39] Batch 30 - Loss: 346.737091
+[2025-05-11 14:21:41] Batch 35 - Loss: 332.249939
+[2025-05-11 14:21:42] Batch 40 - Loss: 318.864288
+[2025-05-11 14:21:44] Batch 45 - Loss: 306.608002
+[2025-05-11 14:21:46] Batch 50 - Loss: 294.594604
+[2025-05-11 14:21:48] Batch 55 - Loss: 282.956665
+[2025-05-11 14:21:49] Batch 60 - Loss: 272.393921
+[2025-05-11 14:21:51] Batch 65 - Loss: 263.081940
+[2025-05-11 14:21:53] Batch 70 - Loss: 253.810516
+[2025-05-11 14:21:55] Batch 75 - Loss: 244.760742
+[2025-05-11 14:21:56] Batch 80 - Loss: 236.363708
+[2025-05-11 14:21:58] Batch 85 - Loss: 228.392685
+[2025-05-11 14:22:00] Batch 90 - Loss: 220.706329
+[2025-05-11 14:22:02] Batch 95 - Loss: 213.244217
+[2025-05-11 14:22:10] === Epoch 1/100 Summary ===
+Training Loss: 207.515549
+Validation Loss: 232.165604
+Learning Rate: 0.00003000
+[2025-05-11 14:22:10] Batch 0 - Loss: 71.004471
+[2025-05-11 14:22:12] Batch 5 - Loss: 66.071907
+[2025-05-11 14:22:13] Batch 10 - Loss: 61.877369
+[2025-05-11 14:22:15] Batch 15 - Loss: 59.549786
+[2025-05-11 14:22:17] Batch 20 - Loss: 56.339180
+[2025-05-11 14:22:18] Batch 25 - Loss: 53.610622
+[2025-05-11 14:22:20] Batch 30 - Loss: 51.038074
+[2025-05-11 14:22:22] Batch 35 - Loss: 48.801426
+[2025-05-11 14:22:24] Batch 40 - Loss: 46.562588
+[2025-05-11 14:22:25] Batch 45 - Loss: 44.494591
+[2025-05-11 14:22:27] Batch 50 - Loss: 42.731789
+[2025-05-11 14:22:29] Batch 55 - Loss: 41.241535
+[2025-05-11 14:22:31] Batch 60 - Loss: 39.861385
+[2025-05-11 14:22:32] Batch 65 - Loss: 38.448380
+[2025-05-11 14:22:34] Batch 70 - Loss: 37.154778
+[2025-05-11 14:22:36] Batch 75 - Loss: 35.918808
+[2025-05-11 14:22:38] Batch 80 - Loss: 34.826927
+[2025-05-11 14:22:39] Batch 85 - Loss: 33.752590
+[2025-05-11 14:22:41] Batch 90 - Loss: 32.735100
+[2025-05-11 14:22:43] Batch 95 - Loss: 31.927902
+[2025-05-11 14:22:50] === Epoch 2/100 Summary ===
+Training Loss: 31.151209
+Validation Loss: 65.538368
+Learning Rate: 0.00003000
+[2025-05-11 14:22:50] Batch 0 - Loss: 17.551714
+[2025-05-11 14:22:52] Batch 5 - Loss: 14.498242
+[2025-05-11 14:22:54] Batch 10 - Loss: 14.140532
+[2025-05-11 14:22:56] Batch 15 - Loss: 14.316303
+[2025-05-11 14:22:58] Batch 20 - Loss: 13.807323
+[2025-05-11 14:22:59] Batch 25 - Loss: 13.491272
+[2025-05-11 14:23:01] Batch 30 - Loss: 13.132021
+[2025-05-11 14:23:03] Batch 35 - Loss: 12.907615
+[2025-05-11 14:23:05] Batch 40 - Loss: 12.733473
+[2025-05-11 14:23:06] Batch 45 - Loss: 12.647489
+[2025-05-11 14:23:08] Batch 50 - Loss: 12.463798
+[2025-05-11 14:23:10] Batch 55 - Loss: 12.298835
+[2025-05-11 14:23:12] Batch 60 - Loss: 12.021658
+[2025-05-11 14:23:13] Batch 65 - Loss: 11.983000
+[2025-05-11 14:23:15] Batch 70 - Loss: 11.809486
+[2025-05-11 14:23:17] Batch 75 - Loss: 11.677708
+[2025-05-11 14:23:18] Batch 80 - Loss: 11.509929
+[2025-05-11 14:23:20] Batch 85 - Loss: 11.302057
+[2025-05-11 14:23:22] Batch 90 - Loss: 11.167292
+[2025-05-11 14:23:23] Batch 95 - Loss: 11.005096
+[2025-05-11 14:23:31] === Epoch 3/100 Summary ===
+Training Loss: 10.858154
+Validation Loss: 22.828796
+Learning Rate: 0.00003000
+[2025-05-11 14:23:31] Batch 0 - Loss: 6.864430
+[2025-05-11 14:23:33] Batch 5 - Loss: 8.076175
+[2025-05-11 14:23:35] Batch 10 - Loss: 7.600444
+[2025-05-11 14:23:36] Batch 15 - Loss: 7.705487
+[2025-05-11 14:23:38] Batch 20 - Loss: 7.685417
+[2025-05-11 14:23:40] Batch 25 - Loss: 7.625878
+[2025-05-11 14:23:41] Batch 30 - Loss: 7.554783
+[2025-05-11 14:23:43] Batch 35 - Loss: 7.454329
+[2025-05-11 14:23:49] === Epoch 4/100 Summary ===
+Training Loss: 7.437920
+Validation Loss: 18.452175
+Learning Rate: 0.00003000
+[2025-05-11 14:23:50] Batch 0 - Loss: 7.482919
+[2025-05-11 14:23:52] Batch 5 - Loss: 8.316716
+[2025-05-11 14:23:53] Batch 10 - Loss: 8.154812
+[2025-05-11 14:23:55] Batch 15 - Loss: 7.945132
+[2025-05-11 14:23:57] Batch 20 - Loss: 7.837839
+[2025-05-11 14:23:59] Batch 25 - Loss: 7.813360
+[2025-05-11 14:24:00] Batch 30 - Loss: 7.763927
+[2025-05-11 14:24:02] Batch 35 - Loss: 7.735742
+[2025-05-11 14:24:04] Batch 40 - Loss: 7.664039
+[2025-05-11 14:24:06] Batch 45 - Loss: 7.601013
+[2025-05-11 14:24:07] Batch 50 - Loss: 7.573982
+[2025-05-11 14:24:09] Batch 55 - Loss: 7.498584
+[2025-05-11 14:24:11] Batch 60 - Loss: 7.434044
+[2025-05-11 14:24:13] Batch 65 - Loss: 7.411262
+[2025-05-11 14:24:14] Batch 70 - Loss: 7.382846
+[2025-05-11 14:24:16] Batch 75 - Loss: 7.322298
+[2025-05-11 14:24:18] Batch 80 - Loss: 7.247332
+[2025-05-11 14:24:20] Batch 85 - Loss: 7.177091
+[2025-05-11 14:24:21] Batch 90 - Loss: 7.090761
+[2025-05-11 14:24:23] Batch 95 - Loss: 7.014103
+[2025-05-11 14:24:30] === Epoch 5/100 Summary ===
+Training Loss: 6.945318
+Validation Loss: 15.931475
+Learning Rate: 0.00003000
+[2025-05-11 14:24:30] Generating detection visualizations for epoch 5...
+[2025-05-11 14:24:31] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:24:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:24:31] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:24:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:24:31] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:24:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:24:32] Batch 0 - Loss: 5.796538
+[2025-05-11 14:24:33] Batch 5 - Loss: 6.023582
+[2025-05-11 14:24:35] Batch 10 - Loss: 6.049195
+[2025-05-11 14:24:37] Batch 15 - Loss: 6.081571
+[2025-05-11 14:24:38] Batch 20 - Loss: 6.215689
+[2025-05-11 14:24:40] Batch 25 - Loss: 6.085983
+[2025-05-11 14:24:42] Batch 30 - Loss: 6.013158
+[2025-05-11 14:24:44] Batch 35 - Loss: 5.873908
+[2025-05-11 14:24:46] Batch 40 - Loss: 5.785115
+[2025-05-11 14:24:47] Batch 45 - Loss: 5.853692
+[2025-05-11 14:24:49] Batch 50 - Loss: 5.828742
+[2025-05-11 14:24:51] Batch 55 - Loss: 5.777997
+[2025-05-11 14:24:52] Batch 60 - Loss: 5.814587
+[2025-05-11 14:24:54] Batch 65 - Loss: 5.785190
+[2025-05-11 14:24:56] Batch 70 - Loss: 5.743706
+[2025-05-11 14:24:58] Batch 75 - Loss: 5.672740
+[2025-05-11 14:24:59] Batch 80 - Loss: 5.655639
+[2025-05-11 14:25:01] Batch 85 - Loss: 5.628916
+[2025-05-11 14:25:03] Batch 90 - Loss: 5.589052
+[2025-05-11 14:25:05] Batch 95 - Loss: 5.574773
+[2025-05-11 14:25:12] === Epoch 6/100 Summary ===
+Training Loss: 5.554862
+Validation Loss: 9.833873
+Learning Rate: 0.00003000
+[2025-05-11 14:25:12] Batch 0 - Loss: 4.671951
+[2025-05-11 14:25:14] Batch 5 - Loss: 5.398242
+[2025-05-11 14:25:16] Batch 10 - Loss: 5.173842
+[2025-05-11 14:25:17] Batch 15 - Loss: 5.158879
+[2025-05-11 14:25:19] Batch 20 - Loss: 5.248010
+[2025-05-11 14:25:21] Batch 25 - Loss: 5.185825
+[2025-05-11 14:25:23] Batch 30 - Loss: 5.097578
+[2025-05-11 14:25:24] Batch 35 - Loss: 5.072298
+[2025-05-11 14:25:26] Batch 40 - Loss: 5.033551
+[2025-05-11 14:25:28] Batch 45 - Loss: 4.988344
+[2025-05-11 14:25:30] Batch 50 - Loss: 4.977521
+[2025-05-11 14:25:31] Batch 55 - Loss: 4.967519
+[2025-05-11 14:25:33] Batch 60 - Loss: 4.904496
+[2025-05-11 14:25:35] Batch 65 - Loss: 4.938423
+[2025-05-11 14:25:36] Batch 70 - Loss: 4.955627
+[2025-05-11 14:25:38] Batch 75 - Loss: 4.942445
+[2025-05-11 14:25:40] Batch 80 - Loss: 4.921484
+[2025-05-11 14:25:42] Batch 85 - Loss: 4.915749
+[2025-05-11 14:25:43] Batch 90 - Loss: 4.913391
+[2025-05-11 14:25:45] Batch 95 - Loss: 4.864603
+[2025-05-11 14:25:52] === Epoch 7/100 Summary ===
+Training Loss: 4.856029
+Validation Loss: 8.541246
+Learning Rate: 0.00003000
+[2025-05-11 14:25:53] Batch 0 - Loss: 3.315356
+[2025-05-11 14:25:55] Batch 5 - Loss: 4.355673
+[2025-05-11 14:25:56] Batch 10 - Loss: 4.326105
+[2025-05-11 14:25:58] Batch 15 - Loss: 4.232554
+[2025-05-11 14:26:00] Batch 20 - Loss: 4.238795
+[2025-05-11 14:26:02] Batch 25 - Loss: 4.342399
+[2025-05-11 14:26:03] Batch 30 - Loss: 4.335843
+[2025-05-11 14:26:05] Batch 35 - Loss: 4.266350
+[2025-05-11 14:26:11] === Epoch 8/100 Summary ===
+Training Loss: 4.275329
+Validation Loss: 7.664070
+Learning Rate: 0.00003000
+[2025-05-11 14:26:12] Batch 0 - Loss: 5.034120
+[2025-05-11 14:26:14] Batch 5 - Loss: 4.744690
+[2025-05-11 14:26:16] Batch 10 - Loss: 4.812532
+[2025-05-11 14:26:17] Batch 15 - Loss: 5.246156
+[2025-05-11 14:26:19] Batch 20 - Loss: 5.120845
+[2025-05-11 14:26:21] Batch 25 - Loss: 5.108491
+[2025-05-11 14:26:23] Batch 30 - Loss: 5.121833
+[2025-05-11 14:26:25] Batch 35 - Loss: 5.046323
+[2025-05-11 14:26:27] Batch 40 - Loss: 5.063882
+[2025-05-11 14:26:29] Batch 45 - Loss: 5.034528
+[2025-05-11 14:26:30] Batch 50 - Loss: 5.029273
+[2025-05-11 14:26:32] Batch 55 - Loss: 5.049745
+[2025-05-11 14:26:34] Batch 60 - Loss: 5.041535
+[2025-05-11 14:26:36] Batch 65 - Loss: 5.011727
+[2025-05-11 14:26:38] Batch 70 - Loss: 4.985291
+[2025-05-11 14:26:40] Batch 75 - Loss: 4.941710
+[2025-05-11 14:26:41] Batch 80 - Loss: 4.923372
+[2025-05-11 14:26:43] Batch 85 - Loss: 4.874461
+[2025-05-11 14:26:45] Batch 90 - Loss: 4.859232
+[2025-05-11 14:26:47] Batch 95 - Loss: 4.825483
+[2025-05-11 14:26:54] === Epoch 9/100 Summary ===
+Training Loss: 4.815897
+Validation Loss: 6.635348
+Learning Rate: 0.00003000
+[2025-05-11 14:26:55] Batch 0 - Loss: 4.250414
+[2025-05-11 14:26:56] Batch 5 - Loss: 4.177584
+[2025-05-11 14:26:58] Batch 10 - Loss: 4.364922
+[2025-05-11 14:27:00] Batch 15 - Loss: 4.397680
+[2025-05-11 14:27:01] Batch 20 - Loss: 4.513346
+[2025-05-11 14:27:03] Batch 25 - Loss: 4.515996
+[2025-05-11 14:27:05] Batch 30 - Loss: 4.519672
+[2025-05-11 14:27:07] Batch 35 - Loss: 4.513703
+[2025-05-11 14:27:08] Batch 40 - Loss: 4.471436
+[2025-05-11 14:27:10] Batch 45 - Loss: 4.473794
+[2025-05-11 14:27:12] Batch 50 - Loss: 4.473138
+[2025-05-11 14:27:14] Batch 55 - Loss: 4.492073
+[2025-05-11 14:27:15] Batch 60 - Loss: 4.443193
+[2025-05-11 14:27:17] Batch 65 - Loss: 4.402535
+[2025-05-11 14:27:19] Batch 70 - Loss: 4.379642
+[2025-05-11 14:27:21] Batch 75 - Loss: 4.406014
+[2025-05-11 14:27:22] Batch 80 - Loss: 4.353782
+[2025-05-11 14:27:24] Batch 85 - Loss: 4.358836
+[2025-05-11 14:27:26] Batch 90 - Loss: 4.374777
+[2025-05-11 14:27:28] Batch 95 - Loss: 4.379259
+[2025-05-11 14:27:35] === Epoch 10/100 Summary ===
+Training Loss: 4.347096
+Validation Loss: 6.064903
+Learning Rate: 0.00003000
+[2025-05-11 14:27:35] Generating detection visualizations for epoch 10...
+[2025-05-11 14:27:35] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:27:35] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:27:35] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:27:35] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:27:35] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:27:35] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:27:35] Batch 0 - Loss: 3.404264
+[2025-05-11 14:27:37] Batch 5 - Loss: 4.125650
+[2025-05-11 14:27:39] Batch 10 - Loss: 4.232597
+[2025-05-11 14:27:40] Batch 15 - Loss: 4.013236
+[2025-05-11 14:27:42] Batch 20 - Loss: 3.986396
+[2025-05-11 14:27:44] Batch 25 - Loss: 4.001764
+[2025-05-11 14:27:46] Batch 30 - Loss: 4.013951
+[2025-05-11 14:27:47] Batch 35 - Loss: 3.982145
+[2025-05-11 14:27:49] Batch 40 - Loss: 3.968276
+[2025-05-11 14:27:51] Batch 45 - Loss: 3.995547
+[2025-05-11 14:27:53] Batch 50 - Loss: 3.951095
+[2025-05-11 14:27:54] Batch 55 - Loss: 3.930330
+[2025-05-11 14:27:56] Batch 60 - Loss: 3.891433
+[2025-05-11 14:27:58] Batch 65 - Loss: 3.964952
+[2025-05-11 14:28:00] Batch 70 - Loss: 3.944848
+[2025-05-11 14:28:01] Batch 75 - Loss: 3.948814
+[2025-05-11 14:28:03] Batch 80 - Loss: 3.923256
+[2025-05-11 14:28:05] Batch 85 - Loss: 3.901279
+[2025-05-11 14:28:06] Batch 90 - Loss: 3.890944
+[2025-05-11 14:28:08] Batch 95 - Loss: 3.867310
+[2025-05-11 14:28:15] === Epoch 11/100 Summary ===
+Training Loss: 3.861188
+Validation Loss: 5.573910
+Learning Rate: 0.00003000
+[2025-05-11 14:28:16] Batch 0 - Loss: 4.088512
+[2025-05-11 14:28:17] Batch 5 - Loss: 3.534485
+[2025-05-11 14:28:19] Batch 10 - Loss: 3.426939
+[2025-05-11 14:28:21] Batch 15 - Loss: 3.573671
+[2025-05-11 14:28:22] Batch 20 - Loss: 3.606660
+[2025-05-11 14:28:24] Batch 25 - Loss: 3.640360
+[2025-05-11 14:28:26] Batch 30 - Loss: 3.564750
+[2025-05-11 14:28:27] Batch 35 - Loss: 3.558683
+[2025-05-11 14:28:33] === Epoch 12/100 Summary ===
+Training Loss: 3.553035
+Validation Loss: 5.828544
+Learning Rate: 0.00003000
+[2025-05-11 14:28:34] Batch 0 - Loss: 4.105726
+[2025-05-11 14:28:36] Batch 5 - Loss: 4.197739
+[2025-05-11 14:28:38] Batch 10 - Loss: 4.352448
+[2025-05-11 14:28:39] Batch 15 - Loss: 4.324477
+[2025-05-11 14:28:41] Batch 20 - Loss: 4.295920
+[2025-05-11 14:28:43] Batch 25 - Loss: 4.407135
+[2025-05-11 14:28:44] Batch 30 - Loss: 4.340604
+[2025-05-11 14:28:46] Batch 35 - Loss: 4.327562
+[2025-05-11 14:28:48] Batch 40 - Loss: 4.296978
+[2025-05-11 14:28:50] Batch 45 - Loss: 4.225239
+[2025-05-11 14:28:51] Batch 50 - Loss: 4.239813
+[2025-05-11 14:28:53] Batch 55 - Loss: 4.264857
+[2025-05-11 14:28:55] Batch 60 - Loss: 4.226959
+[2025-05-11 14:28:57] Batch 65 - Loss: 4.208843
+[2025-05-11 14:28:58] Batch 70 - Loss: 4.195683
+[2025-05-11 14:29:00] Batch 75 - Loss: 4.177663
+[2025-05-11 14:29:02] Batch 80 - Loss: 4.151639
+[2025-05-11 14:29:04] Batch 85 - Loss: 4.148369
+[2025-05-11 14:29:05] Batch 90 - Loss: 4.130258
+[2025-05-11 14:29:07] Batch 95 - Loss: 4.089682
+[2025-05-11 14:29:14] === Epoch 13/100 Summary ===
+Training Loss: 4.075537
+Validation Loss: 5.485788
+Learning Rate: 0.00003000
+[2025-05-11 14:29:15] Batch 0 - Loss: 4.063542
+[2025-05-11 14:29:16] Batch 5 - Loss: 3.804092
+[2025-05-11 14:29:18] Batch 10 - Loss: 3.793186
+[2025-05-11 14:29:20] Batch 15 - Loss: 3.806113
+[2025-05-11 14:29:22] Batch 20 - Loss: 3.853575
+[2025-05-11 14:29:23] Batch 25 - Loss: 3.771719
+[2025-05-11 14:29:25] Batch 30 - Loss: 3.779957
+[2025-05-11 14:29:27] Batch 35 - Loss: 3.753720
+[2025-05-11 14:29:28] Batch 40 - Loss: 3.759552
+[2025-05-11 14:29:30] Batch 45 - Loss: 3.783883
+[2025-05-11 14:29:32] Batch 50 - Loss: 3.807905
+[2025-05-11 14:29:34] Batch 55 - Loss: 3.839246
+[2025-05-11 14:29:35] Batch 60 - Loss: 3.826413
+[2025-05-11 14:29:37] Batch 65 - Loss: 3.836010
+[2025-05-11 14:29:39] Batch 70 - Loss: 3.807965
+[2025-05-11 14:29:41] Batch 75 - Loss: 3.772342
+[2025-05-11 14:29:42] Batch 80 - Loss: 3.743377
+[2025-05-11 14:29:44] Batch 85 - Loss: 3.727050
+[2025-05-11 14:29:46] Batch 90 - Loss: 3.709209
+[2025-05-11 14:29:48] Batch 95 - Loss: 3.673743
+[2025-05-11 14:29:55] === Epoch 14/100 Summary ===
+Training Loss: 3.669892
+Validation Loss: 5.479476
+Learning Rate: 0.00003000
+[2025-05-11 14:29:55] Batch 0 - Loss: 3.488813
+[2025-05-11 14:29:57] Batch 5 - Loss: 3.473249
+[2025-05-11 14:29:59] Batch 10 - Loss: 3.314276
+[2025-05-11 14:30:01] Batch 15 - Loss: 3.231802
+[2025-05-11 14:30:03] Batch 20 - Loss: 3.319756
+[2025-05-11 14:30:05] Batch 25 - Loss: 3.293637
+[2025-05-11 14:30:06] Batch 30 - Loss: 3.297145
+[2025-05-11 14:30:08] Batch 35 - Loss: 3.313668
+[2025-05-11 14:30:10] Batch 40 - Loss: 3.366527
+[2025-05-11 14:30:12] Batch 45 - Loss: 3.373606
+[2025-05-11 14:30:13] Batch 50 - Loss: 3.388440
+[2025-05-11 14:30:15] Batch 55 - Loss: 3.406695
+[2025-05-11 14:30:17] Batch 60 - Loss: 3.419872
+[2025-05-11 14:30:19] Batch 65 - Loss: 3.413645
+[2025-05-11 14:30:20] Batch 70 - Loss: 3.391799
+[2025-05-11 14:30:22] Batch 75 - Loss: 3.371719
+[2025-05-11 14:30:24] Batch 80 - Loss: 3.365288
+[2025-05-11 14:30:26] Batch 85 - Loss: 3.334839
+[2025-05-11 14:30:27] Batch 90 - Loss: 3.323513
+[2025-05-11 14:30:29] Batch 95 - Loss: 3.326158
+[2025-05-11 14:30:37] === Epoch 15/100 Summary ===
+Training Loss: 3.325520
+Validation Loss: 5.238468
+Learning Rate: 0.00003000
+[2025-05-11 14:30:37] Generating detection visualizations for epoch 15...
+[2025-05-11 14:30:37] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:30:37] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:30:37] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:30:37] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:30:37] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:30:37] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:30:38] Batch 0 - Loss: 3.152912
+[2025-05-11 14:30:39] Batch 5 - Loss: 3.643064
+[2025-05-11 14:30:41] Batch 10 - Loss: 3.397753
+[2025-05-11 14:30:43] Batch 15 - Loss: 3.384454
+[2025-05-11 14:30:44] Batch 20 - Loss: 3.385424
+[2025-05-11 14:30:46] Batch 25 - Loss: 3.482898
+[2025-05-11 14:30:48] Batch 30 - Loss: 3.387858
+[2025-05-11 14:30:50] Batch 35 - Loss: 3.393749
+[2025-05-11 14:30:55] === Epoch 16/100 Summary ===
+Training Loss: 3.386296
+Validation Loss: 5.238946
+Learning Rate: 0.00003000
+[2025-05-11 14:30:56] Batch 0 - Loss: 3.625852
+[2025-05-11 14:30:58] Batch 5 - Loss: 3.609767
+[2025-05-11 14:31:00] Batch 10 - Loss: 3.801870
+[2025-05-11 14:31:01] Batch 15 - Loss: 3.855873
+[2025-05-11 14:31:03] Batch 20 - Loss: 3.924040
+[2025-05-11 14:31:05] Batch 25 - Loss: 3.887259
+[2025-05-11 14:31:07] Batch 30 - Loss: 3.868259
+[2025-05-11 14:31:08] Batch 35 - Loss: 3.816721
+[2025-05-11 14:31:10] Batch 40 - Loss: 3.822605
+[2025-05-11 14:31:12] Batch 45 - Loss: 3.766926
+[2025-05-11 14:31:13] Batch 50 - Loss: 3.749269
+[2025-05-11 14:31:15] Batch 55 - Loss: 3.734681
+[2025-05-11 14:31:17] Batch 60 - Loss: 3.759393
+[2025-05-11 14:31:19] Batch 65 - Loss: 3.757540
+[2025-05-11 14:31:20] Batch 70 - Loss: 3.733917
+[2025-05-11 14:31:22] Batch 75 - Loss: 3.716860
+[2025-05-11 14:31:24] Batch 80 - Loss: 3.682300
+[2025-05-11 14:31:26] Batch 85 - Loss: 3.681307
+[2025-05-11 14:31:27] Batch 90 - Loss: 3.652330
+[2025-05-11 14:31:29] Batch 95 - Loss: 3.624478
+[2025-05-11 14:31:36] === Epoch 17/100 Summary ===
+Training Loss: 3.608778
+Validation Loss: 5.110848
+Learning Rate: 0.00003000
+[2025-05-11 14:31:37] Batch 0 - Loss: 3.279898
+[2025-05-11 14:31:38] Batch 5 - Loss: 3.275400
+[2025-05-11 14:31:40] Batch 10 - Loss: 3.199023
+[2025-05-11 14:31:42] Batch 15 - Loss: 3.266284
+[2025-05-11 14:31:44] Batch 20 - Loss: 3.299914
+[2025-05-11 14:31:45] Batch 25 - Loss: 3.331822
+[2025-05-11 14:31:47] Batch 30 - Loss: 3.310522
+[2025-05-11 14:31:49] Batch 35 - Loss: 3.306044
+[2025-05-11 14:31:50] Batch 40 - Loss: 3.311105
+[2025-05-11 14:31:52] Batch 45 - Loss: 3.350833
+[2025-05-11 14:31:54] Batch 50 - Loss: 3.360234
+[2025-05-11 14:31:56] Batch 55 - Loss: 3.379488
+[2025-05-11 14:31:57] Batch 60 - Loss: 3.369960
+[2025-05-11 14:31:59] Batch 65 - Loss: 3.365885
+[2025-05-11 14:32:01] Batch 70 - Loss: 3.337146
+[2025-05-11 14:32:03] Batch 75 - Loss: 3.338542
+[2025-05-11 14:32:04] Batch 80 - Loss: 3.293493
+[2025-05-11 14:32:06] Batch 85 - Loss: 3.273077
+[2025-05-11 14:32:08] Batch 90 - Loss: 3.279131
+[2025-05-11 14:32:10] Batch 95 - Loss: 3.274256
+[2025-05-11 14:32:17] === Epoch 18/100 Summary ===
+Training Loss: 3.263696
+Validation Loss: 4.963934
+Learning Rate: 0.00003000
+[2025-05-11 14:32:17] Batch 0 - Loss: 3.302932
+[2025-05-11 14:32:19] Batch 5 - Loss: 3.211116
+[2025-05-11 14:32:21] Batch 10 - Loss: 3.356402
+[2025-05-11 14:32:22] Batch 15 - Loss: 3.267968
+[2025-05-11 14:32:24] Batch 20 - Loss: 3.344602
+[2025-05-11 14:32:26] Batch 25 - Loss: 3.301157
+[2025-05-11 14:32:28] Batch 30 - Loss: 3.293072
+[2025-05-11 14:32:29] Batch 35 - Loss: 3.279536
+[2025-05-11 14:32:31] Batch 40 - Loss: 3.278993
+[2025-05-11 14:32:33] Batch 45 - Loss: 3.239502
+[2025-05-11 14:32:35] Batch 50 - Loss: 3.237081
+[2025-05-11 14:32:36] Batch 55 - Loss: 3.221738
+[2025-05-11 14:32:38] Batch 60 - Loss: 3.205436
+[2025-05-11 14:32:40] Batch 65 - Loss: 3.201795
+[2025-05-11 14:32:42] Batch 70 - Loss: 3.173777
+[2025-05-11 14:32:43] Batch 75 - Loss: 3.166134
+[2025-05-11 14:32:45] Batch 80 - Loss: 3.147892
+[2025-05-11 14:32:47] Batch 85 - Loss: 3.131271
+[2025-05-11 14:32:48] Batch 90 - Loss: 3.122684
+[2025-05-11 14:32:50] Batch 95 - Loss: 3.110791
+[2025-05-11 14:32:57] === Epoch 19/100 Summary ===
+Training Loss: 3.094486
+Validation Loss: 5.035034
+Learning Rate: 0.00003000
+[2025-05-11 14:32:58] Batch 0 - Loss: 3.164166
+[2025-05-11 14:32:59] Batch 5 - Loss: 3.000303
+[2025-05-11 14:33:01] Batch 10 - Loss: 3.015268
+[2025-05-11 14:33:03] Batch 15 - Loss: 2.930136
+[2025-05-11 14:33:04] Batch 20 - Loss: 2.916871
+[2025-05-11 14:33:06] Batch 25 - Loss: 2.943753
+[2025-05-11 14:33:08] Batch 30 - Loss: 2.987725
+[2025-05-11 14:33:10] Batch 35 - Loss: 2.989100
+[2025-05-11 14:33:16] === Epoch 20/100 Summary ===
+Training Loss: 2.977059
+Validation Loss: 4.905467
+Learning Rate: 0.00003000
+[2025-05-11 14:33:16] Generating detection visualizations for epoch 20...
+[2025-05-11 14:33:16] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:33:16] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:33:16] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:33:16] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:33:16] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:33:16] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:33:17] Batch 0 - Loss: 3.358567
+[2025-05-11 14:33:18] Batch 5 - Loss: 3.444286
+[2025-05-11 14:33:20] Batch 10 - Loss: 3.486236
+[2025-05-11 14:33:22] Batch 15 - Loss: 3.340548
+[2025-05-11 14:33:24] Batch 20 - Loss: 3.303099
+[2025-05-11 14:33:26] Batch 25 - Loss: 3.319584
+[2025-05-11 14:33:28] Batch 30 - Loss: 3.296225
+[2025-05-11 14:33:29] Batch 35 - Loss: 3.316780
+[2025-05-11 14:33:31] Batch 40 - Loss: 3.339262
+[2025-05-11 14:33:33] Batch 45 - Loss: 3.339680
+[2025-05-11 14:33:35] Batch 50 - Loss: 3.306652
+[2025-05-11 14:33:37] Batch 55 - Loss: 3.314860
+[2025-05-11 14:33:38] Batch 60 - Loss: 3.312296
+[2025-05-11 14:33:40] Batch 65 - Loss: 3.288409
+[2025-05-11 14:33:42] Batch 70 - Loss: 3.265220
+[2025-05-11 14:33:44] Batch 75 - Loss: 3.235777
+[2025-05-11 14:33:45] Batch 80 - Loss: 3.241671
+[2025-05-11 14:33:47] Batch 85 - Loss: 3.256082
+[2025-05-11 14:33:49] Batch 90 - Loss: 3.245284
+[2025-05-11 14:33:51] Batch 95 - Loss: 3.233105
+[2025-05-11 14:33:58] === Epoch 21/100 Summary ===
+Training Loss: 3.246917
+Validation Loss: 4.981699
+Learning Rate: 0.00003000
+[2025-05-11 14:33:58] Batch 0 - Loss: 2.995522
+[2025-05-11 14:34:00] Batch 5 - Loss: 3.264818
+[2025-05-11 14:34:02] Batch 10 - Loss: 3.358091
+[2025-05-11 14:34:03] Batch 15 - Loss: 3.216259
+[2025-05-11 14:34:05] Batch 20 - Loss: 3.244935
+[2025-05-11 14:34:07] Batch 25 - Loss: 3.249251
+[2025-05-11 14:34:09] Batch 30 - Loss: 3.251282
+[2025-05-11 14:34:10] Batch 35 - Loss: 3.235569
+[2025-05-11 14:34:12] Batch 40 - Loss: 3.197287
+[2025-05-11 14:34:14] Batch 45 - Loss: 3.202076
+[2025-05-11 14:34:16] Batch 50 - Loss: 3.196985
+[2025-05-11 14:34:17] Batch 55 - Loss: 3.180553
+[2025-05-11 14:34:19] Batch 60 - Loss: 3.172879
+[2025-05-11 14:34:21] Batch 65 - Loss: 3.182094
+[2025-05-11 14:34:22] Batch 70 - Loss: 3.176907
+[2025-05-11 14:34:24] Batch 75 - Loss: 3.171864
+[2025-05-11 14:34:26] Batch 80 - Loss: 3.150083
+[2025-05-11 14:34:28] Batch 85 - Loss: 3.126443
+[2025-05-11 14:34:29] Batch 90 - Loss: 3.125043
+[2025-05-11 14:34:31] Batch 95 - Loss: 3.124491
+[2025-05-11 14:34:38] === Epoch 22/100 Summary ===
+Training Loss: 3.111193
+Validation Loss: 4.772247
+Learning Rate: 0.00003000
+[2025-05-11 14:34:39] Batch 0 - Loss: 2.896977
+[2025-05-11 14:34:41] Batch 5 - Loss: 2.761803
+[2025-05-11 14:34:42] Batch 10 - Loss: 2.879081
+[2025-05-11 14:34:44] Batch 15 - Loss: 2.916141
+[2025-05-11 14:34:46] Batch 20 - Loss: 2.968750
+[2025-05-11 14:34:48] Batch 25 - Loss: 2.926500
+[2025-05-11 14:34:49] Batch 30 - Loss: 2.886037
+[2025-05-11 14:34:51] Batch 35 - Loss: 2.912492
+[2025-05-11 14:34:53] Batch 40 - Loss: 2.876138
+[2025-05-11 14:34:55] Batch 45 - Loss: 2.878286
+[2025-05-11 14:34:57] Batch 50 - Loss: 2.888218
+[2025-05-11 14:34:58] Batch 55 - Loss: 2.900614
+[2025-05-11 14:35:00] Batch 60 - Loss: 2.872635
+[2025-05-11 14:35:02] Batch 65 - Loss: 2.891662
+[2025-05-11 14:35:04] Batch 70 - Loss: 2.894678
+[2025-05-11 14:35:05] Batch 75 - Loss: 2.887033
+[2025-05-11 14:35:07] Batch 80 - Loss: 2.886815
+[2025-05-11 14:35:09] Batch 85 - Loss: 2.877997
+[2025-05-11 14:35:11] Batch 90 - Loss: 2.869942
+[2025-05-11 14:35:13] Batch 95 - Loss: 2.866093
+[2025-05-11 14:35:20] === Epoch 23/100 Summary ===
+Training Loss: 2.855621
+Validation Loss: 4.731454
+Learning Rate: 0.00003000
+[2025-05-11 14:35:21] Batch 0 - Loss: 2.284821
+[2025-05-11 14:35:23] Batch 5 - Loss: 2.861163
+[2025-05-11 14:35:24] Batch 10 - Loss: 2.806596
+[2025-05-11 14:35:26] Batch 15 - Loss: 2.828112
+[2025-05-11 14:35:28] Batch 20 - Loss: 2.742753
+[2025-05-11 14:35:30] Batch 25 - Loss: 2.795354
+[2025-05-11 14:35:32] Batch 30 - Loss: 2.858452
+[2025-05-11 14:35:33] Batch 35 - Loss: 2.844807
+[2025-05-11 14:35:40] === Epoch 24/100 Summary ===
+Training Loss: 2.849912
+Validation Loss: 4.805736
+Learning Rate: 0.00003000
+[2025-05-11 14:35:40] Batch 0 - Loss: 4.029416
+[2025-05-11 14:35:42] Batch 5 - Loss: 3.501844
+[2025-05-11 14:35:44] Batch 10 - Loss: 3.424546
+[2025-05-11 14:35:46] Batch 15 - Loss: 3.386996
+[2025-05-11 14:35:48] Batch 20 - Loss: 3.397367
+[2025-05-11 14:35:49] Batch 25 - Loss: 3.427236
+[2025-05-11 14:35:51] Batch 30 - Loss: 3.357340
+[2025-05-11 14:35:53] Batch 35 - Loss: 3.339243
+[2025-05-11 14:35:55] Batch 40 - Loss: 3.316360
+[2025-05-11 14:35:57] Batch 45 - Loss: 3.284182
+[2025-05-11 14:35:58] Batch 50 - Loss: 3.273375
+[2025-05-11 14:36:00] Batch 55 - Loss: 3.274346
+[2025-05-11 14:36:02] Batch 60 - Loss: 3.279684
+[2025-05-11 14:36:04] Batch 65 - Loss: 3.268328
+[2025-05-11 14:36:06] Batch 70 - Loss: 3.264629
+[2025-05-11 14:36:07] Batch 75 - Loss: 3.240800
+[2025-05-11 14:36:09] Batch 80 - Loss: 3.216393
+[2025-05-11 14:36:11] Batch 85 - Loss: 3.182691
+[2025-05-11 14:36:13] Batch 90 - Loss: 3.154430
+[2025-05-11 14:36:14] Batch 95 - Loss: 3.120369
+[2025-05-11 14:36:22] === Epoch 25/100 Summary ===
+Training Loss: 3.098347
+Validation Loss: 4.902946
+Learning Rate: 0.00003000
+[2025-05-11 14:36:22] Generating detection visualizations for epoch 25...
+[2025-05-11 14:36:22] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:36:22] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:36:22] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:36:22] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:36:22] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:36:22] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:36:22] Batch 0 - Loss: 2.611506
+[2025-05-11 14:36:24] Batch 5 - Loss: 2.974146
+[2025-05-11 14:36:26] Batch 10 - Loss: 2.859234
+[2025-05-11 14:36:28] Batch 15 - Loss: 2.826644
+[2025-05-11 14:36:30] Batch 20 - Loss: 2.777449
+[2025-05-11 14:36:31] Batch 25 - Loss: 2.757089
+[2025-05-11 14:36:33] Batch 30 - Loss: 2.804225
+[2025-05-11 14:36:35] Batch 35 - Loss: 2.792247
+[2025-05-11 14:36:37] Batch 40 - Loss: 2.843905
+[2025-05-11 14:36:38] Batch 45 - Loss: 2.848421
+[2025-05-11 14:36:40] Batch 50 - Loss: 2.890607
+[2025-05-11 14:36:42] Batch 55 - Loss: 2.892014
+[2025-05-11 14:36:44] Batch 60 - Loss: 2.907876
+[2025-05-11 14:36:45] Batch 65 - Loss: 2.918557
+[2025-05-11 14:36:47] Batch 70 - Loss: 2.912691
+[2025-05-11 14:36:49] Batch 75 - Loss: 2.925147
+[2025-05-11 14:36:51] Batch 80 - Loss: 2.920524
+[2025-05-11 14:36:53] Batch 85 - Loss: 2.919134
+[2025-05-11 14:36:55] Batch 90 - Loss: 2.918442
+[2025-05-11 14:36:56] Batch 95 - Loss: 2.909516
+[2025-05-11 14:37:03] === Epoch 26/100 Summary ===
+Training Loss: 2.894062
+Validation Loss: 4.787257
+Learning Rate: 0.00003000
+[2025-05-11 14:37:04] Batch 0 - Loss: 3.057873
+[2025-05-11 14:37:06] Batch 5 - Loss: 2.816727
+[2025-05-11 14:37:07] Batch 10 - Loss: 2.828635
+[2025-05-11 14:37:09] Batch 15 - Loss: 2.845508
+[2025-05-11 14:37:11] Batch 20 - Loss: 2.855665
+[2025-05-11 14:37:13] Batch 25 - Loss: 2.840169
+[2025-05-11 14:37:15] Batch 30 - Loss: 2.872654
+[2025-05-11 14:37:17] Batch 35 - Loss: 2.881839
+[2025-05-11 14:37:19] Batch 40 - Loss: 2.891484
+[2025-05-11 14:37:21] Batch 45 - Loss: 2.870718
+[2025-05-11 14:37:23] Batch 50 - Loss: 2.857740
+[2025-05-11 14:37:25] Batch 55 - Loss: 2.840086
+[2025-05-11 14:37:26] Batch 60 - Loss: 2.833795
+[2025-05-11 14:37:28] Batch 65 - Loss: 2.819581
+[2025-05-11 14:37:30] Batch 70 - Loss: 2.798403
+[2025-05-11 14:37:32] Batch 75 - Loss: 2.769271
+[2025-05-11 14:37:34] Batch 80 - Loss: 2.760778
+[2025-05-11 14:37:35] Batch 85 - Loss: 2.751659
+[2025-05-11 14:37:37] Batch 90 - Loss: 2.728866
+[2025-05-11 14:37:39] Batch 95 - Loss: 2.733187
+[2025-05-11 14:37:47] === Epoch 27/100 Summary ===
+Training Loss: 2.723316
+Validation Loss: 4.762364
+Learning Rate: 0.00003000
+[2025-05-11 14:37:47] Batch 0 - Loss: 2.293255
+[2025-05-11 14:37:49] Batch 5 - Loss: 2.405074
+[2025-05-11 14:37:51] Batch 10 - Loss: 2.491384
+[2025-05-11 14:37:52] Batch 15 - Loss: 2.581609
+[2025-05-11 14:37:54] Batch 20 - Loss: 2.624363
+[2025-05-11 14:37:56] Batch 25 - Loss: 2.590789
+[2025-05-11 14:37:58] Batch 30 - Loss: 2.561441
+[2025-05-11 14:38:00] Batch 35 - Loss: 2.588925
+[2025-05-11 14:38:05] === Epoch 28/100 Summary ===
+Training Loss: 2.593926
+Validation Loss: 4.780694
+Learning Rate: 0.00000600
+[2025-05-11 14:38:06] Batch 0 - Loss: 3.431472
+[2025-05-11 14:38:08] Batch 5 - Loss: 3.302048
+[2025-05-11 14:38:10] Batch 10 - Loss: 3.319977
+[2025-05-11 14:38:11] Batch 15 - Loss: 3.260874
+[2025-05-11 14:38:13] Batch 20 - Loss: 3.155114
+[2025-05-11 14:38:15] Batch 25 - Loss: 3.116689
+[2025-05-11 14:38:17] Batch 30 - Loss: 3.092978
+[2025-05-11 14:38:18] Batch 35 - Loss: 3.081389
+[2025-05-11 14:38:20] Batch 40 - Loss: 3.073363
+[2025-05-11 14:38:22] Batch 45 - Loss: 3.055810
+[2025-05-11 14:38:24] Batch 50 - Loss: 3.054678
+[2025-05-11 14:38:26] Batch 55 - Loss: 3.046046
+[2025-05-11 14:38:27] Batch 60 - Loss: 3.017675
+[2025-05-11 14:38:29] Batch 65 - Loss: 3.015445
+[2025-05-11 14:38:31] Batch 70 - Loss: 3.005642
+[2025-05-11 14:38:33] Batch 75 - Loss: 2.988392
+[2025-05-11 14:38:35] Batch 80 - Loss: 2.984551
+[2025-05-11 14:38:36] Batch 85 - Loss: 2.954583
+[2025-05-11 14:38:38] Batch 90 - Loss: 2.926004
+[2025-05-11 14:38:40] Batch 95 - Loss: 2.910712
+[2025-05-11 14:38:48] === Epoch 29/100 Summary ===
+Training Loss: 2.892093
+Validation Loss: 4.708568
+Learning Rate: 0.00000600
+[2025-05-11 14:38:48] Batch 0 - Loss: 2.481547
+[2025-05-11 14:38:50] Batch 5 - Loss: 2.518919
+[2025-05-11 14:38:52] Batch 10 - Loss: 2.578271
+[2025-05-11 14:38:54] Batch 15 - Loss: 2.615996
+[2025-05-11 14:38:56] Batch 20 - Loss: 2.713350
+[2025-05-11 14:38:58] Batch 25 - Loss: 2.685235
+[2025-05-11 14:39:00] Batch 30 - Loss: 2.719371
+[2025-05-11 14:39:02] Batch 35 - Loss: 2.700719
+[2025-05-11 14:39:04] Batch 40 - Loss: 2.675283
+[2025-05-11 14:39:05] Batch 45 - Loss: 2.731165
+[2025-05-11 14:39:07] Batch 50 - Loss: 2.716975
+[2025-05-11 14:39:09] Batch 55 - Loss: 2.709625
+[2025-05-11 14:39:11] Batch 60 - Loss: 2.697620
+[2025-05-11 14:39:13] Batch 65 - Loss: 2.715899
+[2025-05-11 14:39:14] Batch 70 - Loss: 2.722683
+[2025-05-11 14:39:16] Batch 75 - Loss: 2.716752
+[2025-05-11 14:39:18] Batch 80 - Loss: 2.699966
+[2025-05-11 14:39:20] Batch 85 - Loss: 2.693782
+[2025-05-11 14:39:22] Batch 90 - Loss: 2.699119
+[2025-05-11 14:39:24] Batch 95 - Loss: 2.693097
+[2025-05-11 14:39:31] === Epoch 30/100 Summary ===
+Training Loss: 2.681920
+Validation Loss: 4.639743
+Learning Rate: 0.00000600
+[2025-05-11 14:39:31] Generating detection visualizations for epoch 30...
+[2025-05-11 14:39:31] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:39:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:39:31] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:39:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:39:31] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:39:31] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:39:32] Batch 0 - Loss: 2.608365
+[2025-05-11 14:39:33] Batch 5 - Loss: 2.757377
+[2025-05-11 14:39:35] Batch 10 - Loss: 2.658485
+[2025-05-11 14:39:37] Batch 15 - Loss: 2.669309
+[2025-05-11 14:39:39] Batch 20 - Loss: 2.613565
+[2025-05-11 14:39:41] Batch 25 - Loss: 2.642369
+[2025-05-11 14:39:42] Batch 30 - Loss: 2.617724
+[2025-05-11 14:39:44] Batch 35 - Loss: 2.572873
+[2025-05-11 14:39:46] Batch 40 - Loss: 2.581551
+[2025-05-11 14:39:47] Batch 45 - Loss: 2.595979
+[2025-05-11 14:39:49] Batch 50 - Loss: 2.630229
+[2025-05-11 14:39:51] Batch 55 - Loss: 2.625206
+[2025-05-11 14:39:53] Batch 60 - Loss: 2.607968
+[2025-05-11 14:39:54] Batch 65 - Loss: 2.598318
+[2025-05-11 14:39:56] Batch 70 - Loss: 2.579232
+[2025-05-11 14:39:58] Batch 75 - Loss: 2.559435
+[2025-05-11 14:39:59] Batch 80 - Loss: 2.554857
+[2025-05-11 14:40:01] Batch 85 - Loss: 2.550245
+[2025-05-11 14:40:03] Batch 90 - Loss: 2.544907
+[2025-05-11 14:40:04] Batch 95 - Loss: 2.525081
+[2025-05-11 14:40:12] === Epoch 31/100 Summary ===
+Training Loss: 2.509934
+Validation Loss: 4.634192
+Learning Rate: 0.00000600
+[2025-05-11 14:40:12] Batch 0 - Loss: 1.946385
+[2025-05-11 14:40:14] Batch 5 - Loss: 2.117704
+[2025-05-11 14:40:16] Batch 10 - Loss: 2.360193
+[2025-05-11 14:40:17] Batch 15 - Loss: 2.322880
+[2025-05-11 14:40:19] Batch 20 - Loss: 2.410926
+[2025-05-11 14:40:21] Batch 25 - Loss: 2.380963
+[2025-05-11 14:40:22] Batch 30 - Loss: 2.390532
+[2025-05-11 14:40:24] Batch 35 - Loss: 2.395159
+[2025-05-11 14:40:30] === Epoch 32/100 Summary ===
+Training Loss: 2.391628
+Validation Loss: 4.661914
+Learning Rate: 0.00000600
+[2025-05-11 14:40:31] Batch 0 - Loss: 3.150392
+[2025-05-11 14:40:32] Batch 5 - Loss: 2.844490
+[2025-05-11 14:40:34] Batch 10 - Loss: 2.920533
+[2025-05-11 14:40:36] Batch 15 - Loss: 2.953418
+[2025-05-11 14:40:38] Batch 20 - Loss: 2.935251
+[2025-05-11 14:40:40] Batch 25 - Loss: 2.984909
+[2025-05-11 14:40:41] Batch 30 - Loss: 2.964762
+[2025-05-11 14:40:43] Batch 35 - Loss: 2.908773
+[2025-05-11 14:40:45] Batch 40 - Loss: 2.892802
+[2025-05-11 14:40:47] Batch 45 - Loss: 2.882636
+[2025-05-11 14:40:48] Batch 50 - Loss: 2.884014
+[2025-05-11 14:40:50] Batch 55 - Loss: 2.872471
+[2025-05-11 14:40:52] Batch 60 - Loss: 2.881999
+[2025-05-11 14:40:54] Batch 65 - Loss: 2.883353
+[2025-05-11 14:40:55] Batch 70 - Loss: 2.848291
+[2025-05-11 14:40:57] Batch 75 - Loss: 2.820687
+[2025-05-11 14:40:59] Batch 80 - Loss: 2.800172
+[2025-05-11 14:41:01] Batch 85 - Loss: 2.797061
+[2025-05-11 14:41:02] Batch 90 - Loss: 2.785825
+[2025-05-11 14:41:04] Batch 95 - Loss: 2.772040
+[2025-05-11 14:41:11] === Epoch 33/100 Summary ===
+Training Loss: 2.760102
+Validation Loss: 4.697130
+Learning Rate: 0.00000600
+[2025-05-11 14:41:12] Batch 0 - Loss: 2.779770
+[2025-05-11 14:41:13] Batch 5 - Loss: 2.596991
+[2025-05-11 14:41:15] Batch 10 - Loss: 2.597786
+[2025-05-11 14:41:17] Batch 15 - Loss: 2.651283
+[2025-05-11 14:41:18] Batch 20 - Loss: 2.633491
+[2025-05-11 14:41:20] Batch 25 - Loss: 2.649179
+[2025-05-11 14:41:22] Batch 30 - Loss: 2.680395
+[2025-05-11 14:41:24] Batch 35 - Loss: 2.655220
+[2025-05-11 14:41:25] Batch 40 - Loss: 2.672326
+[2025-05-11 14:41:27] Batch 45 - Loss: 2.664481
+[2025-05-11 14:41:29] Batch 50 - Loss: 2.669934
+[2025-05-11 14:41:31] Batch 55 - Loss: 2.642713
+[2025-05-11 14:41:33] Batch 60 - Loss: 2.640181
+[2025-05-11 14:41:34] Batch 65 - Loss: 2.643056
+[2025-05-11 14:41:36] Batch 70 - Loss: 2.682220
+[2025-05-11 14:41:38] Batch 75 - Loss: 2.682294
+[2025-05-11 14:41:40] Batch 80 - Loss: 2.672735
+[2025-05-11 14:41:41] Batch 85 - Loss: 2.667926
+[2025-05-11 14:41:43] Batch 90 - Loss: 2.656435
+[2025-05-11 14:41:45] Batch 95 - Loss: 2.652288
+[2025-05-11 14:41:52] === Epoch 34/100 Summary ===
+Training Loss: 2.655401
+Validation Loss: 4.655475
+Learning Rate: 0.00000600
+[2025-05-11 14:41:52] Batch 0 - Loss: 2.702173
+[2025-05-11 14:41:54] Batch 5 - Loss: 2.430012
+[2025-05-11 14:41:56] Batch 10 - Loss: 2.469384
+[2025-05-11 14:41:58] Batch 15 - Loss: 2.437050
+[2025-05-11 14:41:59] Batch 20 - Loss: 2.495285
+[2025-05-11 14:42:01] Batch 25 - Loss: 2.489713
+[2025-05-11 14:42:03] Batch 30 - Loss: 2.518469
+[2025-05-11 14:42:05] Batch 35 - Loss: 2.507695
+[2025-05-11 14:42:06] Batch 40 - Loss: 2.500145
+[2025-05-11 14:42:08] Batch 45 - Loss: 2.512527
+[2025-05-11 14:42:10] Batch 50 - Loss: 2.540412
+[2025-05-11 14:42:12] Batch 55 - Loss: 2.554714
+[2025-05-11 14:42:13] Batch 60 - Loss: 2.555372
+[2025-05-11 14:42:15] Batch 65 - Loss: 2.570861
+[2025-05-11 14:42:17] Batch 70 - Loss: 2.559078
+[2025-05-11 14:42:19] Batch 75 - Loss: 2.553712
+[2025-05-11 14:42:20] Batch 80 - Loss: 2.536700
+[2025-05-11 14:42:22] Batch 85 - Loss: 2.522635
+[2025-05-11 14:42:24] Batch 90 - Loss: 2.494785
+[2025-05-11 14:42:25] Batch 95 - Loss: 2.466475
+[2025-05-11 14:42:33] === Epoch 35/100 Summary ===
+Training Loss: 2.467501
+Validation Loss: 4.651240
+Learning Rate: 0.00000600
+[2025-05-11 14:42:33] Generating detection visualizations for epoch 35...
+[2025-05-11 14:42:33] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:42:33] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:42:33] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:42:33] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:42:33] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:42:33] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:42:34] Batch 0 - Loss: 2.216347
+[2025-05-11 14:42:36] Batch 5 - Loss: 2.242227
+[2025-05-11 14:42:37] Batch 10 - Loss: 2.325199
+[2025-05-11 14:42:39] Batch 15 - Loss: 2.291023
+[2025-05-11 14:42:41] Batch 20 - Loss: 2.302817
+[2025-05-11 14:42:43] Batch 25 - Loss: 2.325991
+[2025-05-11 14:42:44] Batch 30 - Loss: 2.309179
+[2025-05-11 14:42:46] Batch 35 - Loss: 2.326848
+[2025-05-11 14:42:52] === Epoch 36/100 Summary ===
+Training Loss: 2.325637
+Validation Loss: 4.639838
+Learning Rate: 0.00000120
+[2025-05-11 14:42:53] Batch 0 - Loss: 2.737059
+[2025-05-11 14:42:55] Batch 5 - Loss: 2.958177
+[2025-05-11 14:42:56] Batch 10 - Loss: 2.830513
+[2025-05-11 14:42:58] Batch 15 - Loss: 2.764124
+[2025-05-11 14:43:00] Batch 20 - Loss: 2.776591
+[2025-05-11 14:43:02] Batch 25 - Loss: 2.827347
+[2025-05-11 14:43:04] Batch 30 - Loss: 2.860749
+[2025-05-11 14:43:06] Batch 35 - Loss: 2.852001
+[2025-05-11 14:43:07] Batch 40 - Loss: 2.837187
+[2025-05-11 14:43:09] Batch 45 - Loss: 2.851449
+[2025-05-11 14:43:11] Batch 50 - Loss: 2.843811
+[2025-05-11 14:43:13] Batch 55 - Loss: 2.837252
+[2025-05-11 14:43:14] Batch 60 - Loss: 2.858467
+[2025-05-11 14:43:16] Batch 65 - Loss: 2.845057
+[2025-05-11 14:43:18] Batch 70 - Loss: 2.827528
+[2025-05-11 14:43:20] Batch 75 - Loss: 2.810053
+[2025-05-11 14:43:21] Batch 80 - Loss: 2.801009
+[2025-05-11 14:43:23] Batch 85 - Loss: 2.785002
+[2025-05-11 14:43:25] Batch 90 - Loss: 2.778385
+[2025-05-11 14:43:27] Batch 95 - Loss: 2.762077
+[2025-05-11 14:43:34] === Epoch 37/100 Summary ===
+Training Loss: 2.758203
+Validation Loss: 4.675886
+Learning Rate: 0.00000120
+[2025-05-11 14:43:34] Batch 0 - Loss: 1.907874
+[2025-05-11 14:43:36] Batch 5 - Loss: 2.466308
+[2025-05-11 14:43:38] Batch 10 - Loss: 2.483392
+[2025-05-11 14:43:40] Batch 15 - Loss: 2.522164
+[2025-05-11 14:43:41] Batch 20 - Loss: 2.522906
+[2025-05-11 14:43:43] Batch 25 - Loss: 2.504604
+[2025-05-11 14:43:45] Batch 30 - Loss: 2.521317
+[2025-05-11 14:43:47] Batch 35 - Loss: 2.482805
+[2025-05-11 14:43:49] Batch 40 - Loss: 2.505156
+[2025-05-11 14:43:50] Batch 45 - Loss: 2.548952
+[2025-05-11 14:43:52] Batch 50 - Loss: 2.542761
+[2025-05-11 14:43:54] Batch 55 - Loss: 2.573798
+[2025-05-11 14:43:56] Batch 60 - Loss: 2.590195
+[2025-05-11 14:43:57] Batch 65 - Loss: 2.606657
+[2025-05-11 14:43:59] Batch 70 - Loss: 2.623347
+[2025-05-11 14:44:01] Batch 75 - Loss: 2.652965
+[2025-05-11 14:44:03] Batch 80 - Loss: 2.632629
+[2025-05-11 14:44:04] Batch 85 - Loss: 2.618613
+[2025-05-11 14:44:06] Batch 90 - Loss: 2.607329
+[2025-05-11 14:44:08] Batch 95 - Loss: 2.587143
+[2025-05-11 14:44:15] === Epoch 38/100 Summary ===
+Training Loss: 2.584002
+Validation Loss: 4.640758
+Learning Rate: 0.00000120
+[2025-05-11 14:44:15] Batch 0 - Loss: 2.149711
+[2025-05-11 14:44:17] Batch 5 - Loss: 2.620313
+[2025-05-11 14:44:19] Batch 10 - Loss: 2.609025
+[2025-05-11 14:44:20] Batch 15 - Loss: 2.599645
+[2025-05-11 14:44:22] Batch 20 - Loss: 2.528514
+[2025-05-11 14:44:24] Batch 25 - Loss: 2.484794
+[2025-05-11 14:44:26] Batch 30 - Loss: 2.478960
+[2025-05-11 14:44:27] Batch 35 - Loss: 2.457073
+[2025-05-11 14:44:29] Batch 40 - Loss: 2.492781
+[2025-05-11 14:44:31] Batch 45 - Loss: 2.509177
+[2025-05-11 14:44:33] Batch 50 - Loss: 2.491516
+[2025-05-11 14:44:34] Batch 55 - Loss: 2.527548
+[2025-05-11 14:44:36] Batch 60 - Loss: 2.502821
+[2025-05-11 14:44:38] Batch 65 - Loss: 2.510151
+[2025-05-11 14:44:40] Batch 70 - Loss: 2.478183
+[2025-05-11 14:44:42] Batch 75 - Loss: 2.465373
+[2025-05-11 14:44:43] Batch 80 - Loss: 2.472274
+[2025-05-11 14:44:45] Batch 85 - Loss: 2.452796
+[2025-05-11 14:44:47] Batch 90 - Loss: 2.435507
+[2025-05-11 14:44:48] Batch 95 - Loss: 2.409206
+[2025-05-11 14:44:55] === Epoch 39/100 Summary ===
+Training Loss: 2.390805
+Validation Loss: 4.646050
+Learning Rate: 0.00000120
+[2025-05-11 14:44:56] Batch 0 - Loss: 2.391699
+[2025-05-11 14:44:57] Batch 5 - Loss: 2.289796
+[2025-05-11 14:44:59] Batch 10 - Loss: 2.351790
+[2025-05-11 14:45:01] Batch 15 - Loss: 2.299039
+[2025-05-11 14:45:03] Batch 20 - Loss: 2.311234
+[2025-05-11 14:45:04] Batch 25 - Loss: 2.326254
+[2025-05-11 14:45:06] Batch 30 - Loss: 2.299671
+[2025-05-11 14:45:08] Batch 35 - Loss: 2.302088
+[2025-05-11 14:45:14] === Epoch 40/100 Summary ===
+Training Loss: 2.300592
+Validation Loss: 4.653463
+Learning Rate: 0.00000120
+[2025-05-11 14:45:14] Generating detection visualizations for epoch 40...
+[2025-05-11 14:45:14] Error generating visualization for image 0: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:45:14] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:45:14] Error generating visualization for image 1: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:45:14] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:45:14] Error generating visualization for image 2: 'DetectionVisualizationCallback' object is not subscriptable
+[2025-05-11 14:45:14] Traceback (most recent call last):
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 630, in on_epoch_end
+    pred_boxes, pred_scores, pred_classes = self.improved_post_process(np_pred)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adiro\Projects\NNDL-Project\tensorflow\scripts\train_v3.py", line 530, in improved_post_process
+    confidence = prediction[row, col, box_idx + 4]
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DetectionVisualizationCallback' object is not subscriptable
+
+[2025-05-11 14:45:15] Batch 0 - Loss: 3.309270
+[2025-05-11 14:45:16] Batch 5 - Loss: 3.041058
+[2025-05-11 14:45:18] Batch 10 - Loss: 3.028388
+[2025-05-11 14:45:20] Batch 15 - Loss: 2.958829
+[2025-05-11 14:45:22] Batch 20 - Loss: 2.918831
+[2025-05-11 14:45:23] Batch 25 - Loss: 2.857409
+[2025-05-11 14:45:25] Batch 30 - Loss: 2.836395
+[2025-05-11 14:45:27] Batch 35 - Loss: 2.809287
+[2025-05-11 14:45:29] Batch 40 - Loss: 2.794284
+[2025-05-11 14:45:30] Batch 45 - Loss: 2.777987
+[2025-05-11 14:45:32] Batch 50 - Loss: 2.782593
+[2025-05-11 14:45:34] Batch 55 - Loss: 2.782054
+[2025-05-11 14:45:36] Batch 60 - Loss: 2.796390
+[2025-05-11 14:45:37] Batch 65 - Loss: 2.831255
+[2025-05-11 14:45:39] Batch 70 - Loss: 2.803826
+[2025-05-11 14:45:41] Batch 75 - Loss: 2.767888
+[2025-05-11 14:45:43] Batch 80 - Loss: 2.757715
+[2025-05-11 14:45:44] Batch 85 - Loss: 2.740278
+[2025-05-11 14:45:46] Batch 90 - Loss: 2.728732
+[2025-05-11 14:45:48] Batch 95 - Loss: 2.721997
+[2025-05-11 14:45:55] === Epoch 41/100 Summary ===
+Training Loss: 2.725872
+Validation Loss: 4.692491
+Learning Rate: 0.00000100
+[2025-05-11 14:45:55] === Training Completed ===
+[2025-05-11 14:45:55] Best epoch: 31
+[2025-05-11 14:45:55] Best validation loss: 4.634192
+[2025-05-11 14:45:55] Model training completed in 24.51 minutes
+[2025-05-11 14:45:55] Model saved to trained_models/custom_detector\final_model.keras
+[2025-05-11 14:45:56] Training history plot saved to trained_models/custom_detector\training_history.png
+[2025-05-11 14:45:56] === Valorant Detector Completed ===
